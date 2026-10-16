@@ -3,7 +3,9 @@
 A Windows app for Monster Hunter Wilds. It has two parts:
 
 - Quest Maker: make custom event quests (monster, star rating, normal / tempered / arch-tempered, rewards) and install them in one click.
-- Builds: a build editor and a calculator that finds gear for the skills you want, in the order you want them. It can also import your in-game loadouts and send builds back to the game.
+- Builds: a build editor and a calculator that finds gear for the skills you want, in the order you want them. It can also import your in-game loadouts and send builds back to the game, and compare builds' damage against any monster.
+- Monsters: a guide for every large monster (weak spots, best element, what it attacks with, hitzones, drops) that can also find the best builds against it.
+- Hunts: a log of the monsters you fight, with personal bests.
 
 ## Download
 

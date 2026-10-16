@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.4 (2026-10-16)
+Rolls up the 1.3.1 to 1.3.7 testing builds.
+- Monsters tab: a guide per monster with where to hit, best element and statuses, what it attacks with, items that work, hitzones and drops
+- Best builds against a monster, ranked by damage on that monster, with resistance to its attacks
+- Hunts tab: a log of every large monster you fight, with personal bests
+- Damage tab in Builds: compare builds' damage per hit on every part
+- Hunted monsters: the calculator can skip gear you can't craft yet (normal, tempered, arch-tempered)
+- Calculator results styled like the in-game skill list, gamma armor option, clear build button
+- Search ignores apostrophes and understands γ / gamma / y and III / 3
+- Small windows work: tabs scroll, layouts stack
+- Data reader v7 records hunts
+
 ## 1.3 (2026-10-16)
 First public release. Rolls up everything from 1.2.1 to 1.2.6.
 - The app now updates itself from this repo. Open the Updates tab, or just start the app and it'll ask.

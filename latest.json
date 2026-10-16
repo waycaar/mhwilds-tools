@@ -1,7 +1,7 @@
 {
-  "version": "1.3.0",
-  "notes": "First public release, everything from 1.2.x in one go.\n\n- Quests: make, edit and install event quests, see monster health before you go in, search your quests\n- Builds: editor, a calculator that maxes skills in your order, import loadouts from the game and send builds back\n- Icons for all gear and decorations\n- Themes\n- Updates install from inside the app now\n\nFull history is in CHANGELOG.md on GitHub.",
+  "version": "1.4.0",
+  "notes": "Big update. Everything from the 1.3.x testing builds in one go.\n\n- New Monsters tab: a guide for every large monster. Where to hit, best element and statuses, what it attacks with, what items work, full hitzones and drops\n- Best builds against a monster: pick a weapon type and it finds the builds that hit that monster hardest, with resistance to its attacks\n- New Hunts tab: every large monster you fight is logged with time, result and weapon. Personal bests per monster\n- Damage tab in Builds: compare your builds' damage per hit on every part of a monster\n- Hunted monsters: mark what you've hunted (normal, tempered, arch-tempered) and the calculator only uses gear you can craft\n- Calculator: results look like the in-game skill list, \"Use \u03b3 armor\" option, clear build button\n- Search ignores apostrophes and understands \u03b3 / gamma / y and III / 3\n- Works in small windows: tabs scroll, layouts stack\n- Data reader v7 (update it from the Updates tab): records your hunts\n",
   "file": "releases/MHWildsQuestMaker.exe",
-  "size": 8630784,
-  "sha256": "47fa3ac9734f4ef3dd4a437020d5e0aa1e21df2d162af91a3a7387a221b0e6b4"
+  "size": 8964096,
+  "sha256": "a107daf23be73c8b3d6a5893a83a182dd12a86eec18334983348db6f031acc39"
 }
