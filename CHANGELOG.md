@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.4.1 (2026-10-16)
+- Best builds against a monster can now include Artian weapons with perfect rolls (checkbox). It picks the element, the attack/affinity parts and the five reinforcement rolls that hit that monster hardest with your skills, and shows them so you know what to craft
+- Planned Artian builds open in the editor
+
 ## 1.4 (2026-10-16)
 Rolls up the 1.3.1 to 1.3.7 testing builds.
 - Monsters tab: a guide per monster with where to hit, best element and statuses, what it attacks with, items that work, hitzones and drops
