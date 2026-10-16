@@ -1,24 +1,24 @@
 # MH Wilds Tools
 
-A Windows app for Monster Hunter Wilds with two tools in one:
+A Windows app for Monster Hunter Wilds. It has two parts:
 
-- **Quest Maker**: create custom event quests (monster, star rating, Normal / Tempered / Arch-Tempered, rewards) and install them with one click.
-- **Builds**: a build editor and a priority-based build calculator, with import from and export to your in-game loadouts.
+- Quest Maker: make custom event quests (monster, star rating, normal / tempered / arch-tempered, rewards) and install them in one click.
+- Builds: a build editor and a calculator that finds gear for the skills you want, in the order you want them. It can also import your in-game loadouts and send builds back to the game.
 
 ## Download
 
-**[MHWildsQuestMaker.exe](https://github.com/waycaar/mhwilds-tools/raw/main/releases/MHWildsQuestMaker.exe)**
+[MHWildsQuestMaker.exe](https://github.com/waycaar/mhwilds-tools/raw/main/releases/MHWildsQuestMaker.exe)
 
-Put it in its own folder and run it. Windows may say "Windows protected your PC" the first time: click **More info**, then **Run anyway**. After that the app updates itself from the Updates tab.
+Put it in its own folder and run it. The first time, Windows might say "Windows protected your PC". Click More info, then Run anyway. After that the app keeps itself up to date.
 
-## Requirements
+## You'll need
 
 - [REFramework](https://github.com/praydog/REFramework)
-- The Permanent Event Quest mod (for custom quests)
+- The Permanent Event Quest mod, for custom quests
 
-## Release notes
+## Changes
 
-See [`releases/`](releases/).
+See [CHANGELOG.md](CHANGELOG.md).
 
 ## Credits
 
