@@ -1,0 +1,7 @@
+{
+  "version": "1.3.0",
+  "notes": "## MH Wilds Quest Maker v1.3\n\n**Quests**\n- Create, edit and install custom event quests (needs REFramework + Permanent Event Quest)\n- Star rating, monsters, Normal / Tempered / Arch-Tempered, rewards from all 773 items\n- Monster health shown before you load in, with strength and player-count scaling\n- Quest search by name, monster, ID or map\n\n**Builds**\n- Build editor with skill totals, set and group bonuses, build codes\n- Build calculator: list skills in priority order and it maxes the first, then the next\n- Lock pieces, ban pieces, must-have skills, \"Room for more\" suggestions\n- New results layout: weapon, head to legs, talisman, with rarity colors and every slot\n- Import your in-game loadouts and send builds to an empty loadout slot (save backed up first)\n- Gear and decoration icons built into the app\n\n**App**\n- Themes with two adjustable colors\n- Updates now install from inside the app (Updates tab), no more browser downloads\n\nFirst install: Windows may show \"Windows protected your PC\". Click More info, then Run anyway. Later updates install themselves without it.\n",
+  "file": "releases/MHWildsQuestMaker.exe",
+  "size": 8630784,
+  "sha256": "47fa3ac9734f4ef3dd4a437020d5e0aa1e21df2d162af91a3a7387a221b0e6b4"
+}
