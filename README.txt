@@ -72,7 +72,7 @@
   2) Install the Permanent Event Quest mod (only for custom quests).
      Follow the instructions on its Nexus page.
 
-  3) Put MHWildsQuestMaker.exe in its own folder,
+  3) Put MHWildsTools.exe in its own folder,
      for example Documents\MH Wilds Tools. It's a single file and doesn't
      need installing.
 
@@ -196,16 +196,18 @@
 -------------------------------------------------------------------------------
  7. PRIVACY AND FILES
 -------------------------------------------------------------------------------
-  - The app runs locally. Its only network request is the update check
-    against the GitHub page above, which you can turn off in Settings.
-  - Settings, saved builds and hunted monsters are kept in
+  - The app runs locally. It only goes online to check the GitHub page
+    above for updates when it starts (you can turn that off in Settings), and to fetch
+    monster icons from monsterhunterwiki.org if you click
+    "Get monster icons from the wiki" in the Quests tab.
+  - Settings, saved builds, hunted monsters and save backups are kept in
     %APPDATA%\MHWildsQuestMaker
   - In your game folder it only writes:
       reframework\plugins\PermanentEventQuest\quests   (your quests)
       reframework\autorun\questmaker_reader.lua         (the data reader)
       reframework\data\questmaker                       (the reader's files)
   - The data reader reads your equipment, loadouts and the monsters you
-    fight. It writes your save only when you click
+    fight. It only changes your save when you click
     "Write to empty loadout slot".
 
 
@@ -217,6 +219,8 @@
     - %APPDATA%\MHWildsQuestMaker
     - reframework\autorun\questmaker_reader.lua  (in your game folder)
     - reframework\data\questmaker                (in your game folder)
+  Your custom quests are in reframework\plugins\PermanentEventQuest\quests.
+  Delete them there if you want them gone too.
 
 
 -------------------------------------------------------------------------------

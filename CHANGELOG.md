@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.5 (2026-10-18)
+- The app file is now MHWildsTools.exe. Updating from an older version renames it for you and removes the old MHWildsQuestMaker.exe, so update any shortcut you made. Your settings and builds stay where they are
+- Credits thank the people the app is built on by name: LartTyler, praydog and the REFramework contributors, kassent and Rasmus Andersson
+- No more white box around a tab after you click it
+- New README with a full setup and usage guide, plus README.txt with the same guide for offline reading
+- Small text fixes
+
 ## 1.4.12 (2026-10-18)
 Rolls up the 1.4.2 to 1.4.11 testing builds.
 

@@ -8,7 +8,7 @@ Custom quests, build planning, monster guides and a hunt log for Monster Hunter 
 ![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-555)
 ![Game](https://img.shields.io/badge/game-Monster%20Hunter%20Wilds-c0392b)
 
-[Download](https://github.com/waycaar/mhwilds-tools/raw/main/releases/MHWildsQuestMaker.exe) · [Setup guide](#setup) · [How to use it](#how-to-use-it) · [Troubleshooting](#troubleshooting) · [Changelog](CHANGELOG.md) · [Credits](#credits-and-thanks)
+[Download](https://github.com/waycaar/mhwilds-tools/raw/main/releases/MHWildsTools.exe) · [Setup guide](#setup) · [How to use it](#how-to-use-it) · [Troubleshooting](#troubleshooting) · [Changelog](CHANGELOG.md) · [Credits](#credits-and-thanks)
 
 <img src="docs/monsters.png" alt="Monster guide" width="900">
 
@@ -50,7 +50,7 @@ The build editor, calculator and monster guide work without any mods.
 
 1. **Install REFramework.** Download the Monster Hunter Wilds build from the REFramework releases page and put `dinput8.dll` in your game folder, next to `MonsterHunterWilds.exe`. Start the game once. Pressing Insert should open the REFramework menu.
 2. **Install the Permanent Event Quest mod** (only if you want custom quests). Follow the instructions on its Nexus page.
-3. **Download [MHWildsQuestMaker.exe](https://github.com/waycaar/mhwilds-tools/raw/main/releases/MHWildsQuestMaker.exe)** and put it in its own folder, for example `Documents\MH Wilds Tools`. It's a single file and doesn't need installing.
+3. **Download [MHWildsTools.exe](https://github.com/waycaar/mhwilds-tools/raw/main/releases/MHWildsTools.exe)** and put it in its own folder, for example `Documents\MH Wilds Tools`. It's a single file and doesn't need installing.
 4. **Run it.** The first time, Windows may show "Windows protected your PC". Click More info, then Run anyway. This only happens once, because the app isn't signed with a paid certificate.
 5. **Check the game folder.** The app looks for your Steam game folder by itself. If the dot next to Settings is red, open Settings → Game folder → Change and pick the folder that contains `MonsterHunterWilds.exe`.
 6. **Install the data reader** (optional). Open the Updates tab and click Install. It adds one script, `questmaker_reader.lua`, to `reframework\autorun`. Restart the game afterwards. You only need it for gear import, sending builds to the game and the hunt log.
@@ -110,12 +110,12 @@ With the data reader installed, every large monster you fight is logged from you
 
 ## Privacy and files
 
-- The app runs locally. Its only network request is the update check against this repository, which you can turn off in Settings.
-- Settings, saved builds and hunted monsters are kept in `%APPDATA%\MHWildsQuestMaker`.
+- The app runs locally. It only goes online to check this repository for updates when it starts (you can turn that off in Settings), and to fetch monster icons from monsterhunterwiki.org if you click "Get monster icons from the wiki" in the Quests tab.
+- Settings, saved builds, hunted monsters and save backups are kept in `%APPDATA%\MHWildsQuestMaker`.
 - In your game folder it only writes quest files to `reframework\plugins\PermanentEventQuest\quests`, the data reader to `reframework\autorun`, and the reader's own files to `reframework\data\questmaker`.
-- The data reader reads your equipment, loadouts and the monsters you fight. It writes your save only when you click Write to empty loadout slot.
+- The data reader reads your equipment, loadouts and the monsters you fight. It only changes your save when you click Write to empty loadout slot.
 
-To uninstall, delete the app's folder, `%APPDATA%\MHWildsQuestMaker`, `reframework\autorun\questmaker_reader.lua` and `reframework\data\questmaker`.
+To uninstall, delete the app's folder, `%APPDATA%\MHWildsQuestMaker`, `reframework\autorun\questmaker_reader.lua` and `reframework\data\questmaker`. Your custom quests are in `reframework\plugins\PermanentEventQuest\quests`. Delete them there if you want them gone too.
 
 ## Credits and thanks
 

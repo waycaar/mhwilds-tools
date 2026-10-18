@@ -1,7 +1,7 @@
 {
-  "version": "1.4.12",
-  "notes": "Rolls up the 1.4.2 to 1.4.11 testing builds.\n\nNew\n- The app is now called MH Wilds Tools, with a new look: new typeface, frosted header, softer cards and buttons. Works with every theme\n- Credits page (star button in the top bar)\n- Settings (gear icon): game folder, theme, text size, higher contrast, reduce motion, which tabs show, update checks\n- Builds editor: \"Only gear I own\" checkbox, so the pickers only list what's in your gear export\n- Calculator: choose how long to search, from 3 seconds to a minute. Longer searches can find better builds and show up to 100 results\n- Monsters: damage type ratings (cutting, blunt, shot), weaknesses as compact rows, the list split into Monsters and Guardian monsters\n- Monster pages: hunted / tempered / arch-tempered toggles, hunts logged and best times from your hunt log\n\nQuests\n- Health and attack for every strength level are built into the app, read from the game's own table, so HP shows without the data reader\n- Arch-Tempered is only offered for the monsters that come that way (Rey Dau, Uth Duna, Nu Udra, Jin Dahaad, Arkveld)\n- Fewer warnings. The only one left is for a monster on a map it has never officially appeared on\n- Fixed: \"+ Add monster\" did nothing\n\nData reader (v9)\n- Much smaller. It only handles your gear, sending builds to the game and the hunt log, and does far less work while you play\n- Exports your gear automatically once your save loads, and again when your gear or loadouts change\n- Fixed hunts being logged more than once after a capture or kill\n- The old developer probe is removed from your game folder automatically\n",
-  "file": "releases/MHWildsQuestMaker.exe",
-  "size": 9065984,
-  "sha256": "80a80a350a3b2760e8f8cb2ab9cfdcb35358222bb9c3df3f94a9865b730625b6"
+  "version": "1.5.0",
+  "notes": "- The app file is now MHWildsTools.exe. Updating from an older version renames it for you and removes the old MHWildsQuestMaker.exe, so update any shortcut you made. Your settings and builds stay where they are\n- Credits thank the people the app is built on by name: LartTyler, praydog and the REFramework contributors, kassent and Rasmus Andersson\n- No more white box around a tab after you click it\n- New README with a full setup and usage guide, plus README.txt with the same guide for offline reading\n- Small text fixes\n",
+  "file": "releases/MHWildsTools.exe",
+  "size": 9068032,
+  "sha256": "e50e91141bde91140c7ba86e32001897faf8c2e7d1a6a03bb54051da9fa05a33"
 }
