@@ -26,10 +26,10 @@ Custom quests, build planning, monster guides and a hunt log for Monster Hunter 
 Monster health for every quest strength is built into the app, read from the game's own data. The game script that comes with it is small and only reads what it needs for loadouts and the hunt log.
 
 <table>
-<tr><td><img src="docs/quests.png" alt="Quest maker"></td><td><img src="docs/calculator.png" alt="Build calculator"></td></tr>
-<tr><td align="center">Quest maker</td><td align="center">Build calculator</td></tr>
-<tr><td><img src="docs/monsters.png" alt="Monster guide"></td><td><img src="docs/hunts.png" alt="Hunt log"></td></tr>
-<tr><td align="center">Monster guide</td><td align="center">Hunt log</td></tr>
+<tr><td width="50%"><img src="docs/quests.png" alt="Quest maker: monsters with health per strength"></td><td width="50%"><img src="docs/calculator.png" alt="Build calculator"></td></tr>
+<tr><td align="center">Quest maker, with health worked out for each strength</td><td align="center">Build calculator</td></tr>
+<tr><td><img src="docs/editor.png" alt="Build editor"></td><td><img src="docs/hunts.png" alt="Hunt log"></td></tr>
+<tr><td align="center">Build editor</td><td align="center">Hunt log</td></tr>
 </table>
 
 ## Setup
