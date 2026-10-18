@@ -188,6 +188,11 @@
     It hides itself until the data reader is installed. You can force it on
     in Settings > Tabs.
 
+  "No official quest for this map was found"
+    The app builds each quest from an official quest that comes with the
+    Permanent Event Quest mod. Reinstall that mod (including its quests
+    folder), or pick another map.
+
   The window opens in a web browser
     Install the Microsoft Edge WebView2 Runtime from Microsoft. It's already
     on most Windows 10 and 11 PCs.
@@ -250,6 +255,9 @@
     https://rsms.me/inter/
 
   Everyone who tested early builds, for the bug reports and screenshots.
+
+  Source code: https://github.com/waycaar/mhwilds-tools/tree/main/src
+  Released under the GPL-3.0. Build steps are in src/BUILD.md.
 
   Monster Hunter Wilds is a trademark of Capcom. MH Wilds Tools is a
   fan-made project and isn't affiliated with or endorsed by Capcom.

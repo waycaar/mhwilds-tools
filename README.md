@@ -8,7 +8,7 @@ Custom quests, build planning, monster guides and a hunt log for Monster Hunter 
 ![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011-555)
 ![Game](https://img.shields.io/badge/game-Monster%20Hunter%20Wilds-c0392b)
 
-[Download](https://github.com/waycaar/mhwilds-tools/raw/main/releases/MHWildsTools.exe) · [Setup guide](#setup) · [How to use it](#how-to-use-it) · [Troubleshooting](#troubleshooting) · [Changelog](CHANGELOG.md) · [Credits](#credits-and-thanks)
+[Download](https://github.com/waycaar/mhwilds-tools/raw/main/releases/MHWildsTools.exe) · [Setup guide](#setup) · [How to use it](#how-to-use-it) · [Troubleshooting](#troubleshooting) · [Changelog](CHANGELOG.md) · [Source](#source-code) · [Credits](#credits-and-thanks)
 
 <img src="docs/monsters.png" alt="Monster guide" width="900">
 
@@ -106,6 +106,7 @@ With the data reader installed, every large monster you fight is logged from you
 | Import from game finds no gear | Load into your save and wait a few seconds. Or press Insert → MH Wilds Tools data reader → Export my gear now. |
 | Send to game says there's no empty slot | Free up a loadout slot in the game first. The app never overwrites one of yours. |
 | The Hunts tab is missing | It hides itself until the data reader is installed. You can force it on in Settings → Tabs. |
+| "No official quest for this map was found" | The app builds each quest from an official quest that comes with the Permanent Event Quest mod. Reinstall that mod (including its quests folder), or pick another map. |
 | The window opens in a browser | Install Microsoft Edge WebView2 Runtime from Microsoft. It's already on most Windows 10 and 11 PCs. |
 
 ## Privacy and files
@@ -116,6 +117,10 @@ With the data reader installed, every large monster you fight is logged from you
 - The data reader reads your equipment, loadouts and the monsters you fight. It only changes your save when you click Write to empty loadout slot.
 
 To uninstall, delete the app's folder, `%APPDATA%\MHWildsQuestMaker`, `reframework\autorun\questmaker_reader.lua` and `reframework\data\questmaker`. Your custom quests are in `reframework\plugins\PermanentEventQuest\quests`. Delete them there if you want them gone too.
+
+## Source code
+
+The full source is in [src](src), released under the [GPL-3.0](LICENSE). See [src/BUILD.md](src/BUILD.md) for how to build it. It's one Go program with the interface and data embedded.
 
 ## Credits and thanks
 

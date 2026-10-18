@@ -1,0 +1,4145 @@
+{
+ "stages": [
+  {
+   "code": "st401",
+   "name": "Arena (Wounded Hollow)",
+   "id": 1181994624,
+   "template": 23478
+  },
+  {
+   "code": "st101",
+   "name": "Windward Plains",
+   "id": -1226157568,
+   "template": 24234
+  },
+  {
+   "code": "st102",
+   "name": "Scarlet Forest",
+   "id": -859829056,
+   "template": 16365
+  },
+  {
+   "code": "st103",
+   "name": "Oilwell Basin",
+   "id": -1251081216,
+   "template": 3750
+  },
+  {
+   "code": "st104",
+   "name": "Iceshard Cliffs",
+   "id": 1182228864,
+   "template": 2622
+  },
+  {
+   "code": "st105",
+   "name": "Ruins of Wyveria",
+   "id": 327401792,
+   "template": 6546
+  },
+  {
+   "code": "st402",
+   "name": "Rimechain Peak (Jin Dahaad arena)",
+   "id": 544388992,
+   "template": 24440
+  },
+  {
+   "code": "st403",
+   "name": "Dragontorch Shrine (Zoh Shia arena)",
+   "id": 905584064,
+   "template": 24485
+  },
+  {
+   "code": "st405",
+   "name": "Forgotten Machineworks (Gogmazios arena)",
+   "id": 13836,
+   "template": 27646
+  }
+ ],
+ "monsters": [
+  {
+   "id": 15,
+   "name": "Doshaguma",
+   "tempered": true,
+   "arch": false,
+   "stages": [
+    "st101",
+    "st102",
+    "st401"
+   ],
+   "baseHealth": 4800,
+   "class": "fanged-beast"
+  },
+  {
+   "id": -1916429696,
+   "name": "Guardian Doshaguma",
+   "tempered": false,
+   "arch": false,
+   "stages": [
+    "st105"
+   ],
+   "baseHealth": 5800,
+   "class": "construct"
+  },
+  {
+   "id": 16,
+   "name": "Balahara",
+   "tempered": true,
+   "arch": false,
+   "stages": [
+    "st101",
+    "st401"
+   ],
+   "baseHealth": 4400,
+   "class": "leviathan"
+  },
+  {
+   "id": 33,
+   "name": "Chatacabra",
+   "tempered": true,
+   "arch": false,
+   "stages": [
+    "st101"
+   ],
+   "baseHealth": 4000,
+   "class": "amphibian"
+  },
+  {
+   "id": -34937520,
+   "name": "Quematrice",
+   "tempered": true,
+   "arch": false,
+   "stages": [
+    "st101",
+    "st105",
+    "st401"
+   ],
+   "baseHealth": 4000,
+   "class": "brute-wyvern"
+  },
+  {
+   "id": -1528962176,
+   "name": "Lala Barina",
+   "tempered": true,
+   "arch": false,
+   "stages": [
+    "st102",
+    "st401"
+   ],
+   "baseHealth": 4000,
+   "class": "temnoceran"
+  },
+  {
+   "id": -1440201088,
+   "name": "Congalala",
+   "tempered": true,
+   "arch": false,
+   "stages": [
+    "st102"
+   ],
+   "baseHealth": 5000,
+   "class": "fanged-beast"
+  },
+  {
+   "id": 567628288,
+   "name": "Rompopolo",
+   "tempered": true,
+   "arch": false,
+   "stages": [
+    "st103"
+   ],
+   "baseHealth": 4500,
+   "class": "brute-wyvern"
+  },
+  {
+   "id": 1049705664,
+   "name": "Gypceros",
+   "tempered": true,
+   "arch": false,
+   "stages": [
+    "st103",
+    "st401"
+   ],
+   "baseHealth": 4200,
+   "class": "bird-wyvern"
+  },
+  {
+   "id": 402056736,
+   "name": "Yian Kut-Ku",
+   "tempered": true,
+   "arch": false,
+   "stages": [
+    "st102",
+    "st401"
+   ],
+   "baseHealth": 3800,
+   "class": "bird-wyvern"
+  },
+  {
+   "id": -1363370496,
+   "name": "Nerscylla",
+   "tempered": false,
+   "arch": false,
+   "stages": [
+    "st104",
+    "st401"
+   ],
+   "baseHealth": 4400,
+   "class": "temnoceran"
+  },
+  {
+   "id": 222933952,
+   "name": "Hirabami",
+   "tempered": false,
+   "arch": false,
+   "stages": [
+    "st104"
+   ],
+   "baseHealth": 4500,
+   "class": "leviathan"
+  },
+  {
+   "id": 777460864,
+   "name": "Ajarakan",
+   "tempered": true,
+   "arch": false,
+   "stages": [
+    "st103"
+   ],
+   "baseHealth": 5200,
+   "class": "fanged-beast"
+  },
+  {
+   "id": 26,
+   "name": "Rathian",
+   "tempered": true,
+   "arch": false,
+   "stages": [
+    "st101",
+    "st102"
+   ],
+   "baseHealth": 4500,
+   "class": "flying-wyvern"
+  },
+  {
+   "id": 1965232896,
+   "name": "Rathalos",
+   "tempered": true,
+   "arch": false,
+   "stages": [
+    "st105",
+    "st401"
+   ],
+   "baseHealth": 4500,
+   "class": "flying-wyvern"
+  },
+  {
+   "id": 1411933184,
+   "name": "Guardian Rathalos",
+   "tempered": true,
+   "arch": false,
+   "stages": [
+    "st105"
+   ],
+   "baseHealth": 5000,
+   "class": "construct"
+  },
+  {
+   "id": 1663995904,
+   "name": "Guardian Ebony Odogaron",
+   "tempered": true,
+   "arch": false,
+   "stages": [
+    "st105"
+   ],
+   "baseHealth": 5000,
+   "class": "construct"
+  },
+  {
+   "id": 107194928,
+   "name": "Guardian Fulgur Anjanath",
+   "tempered": true,
+   "arch": false,
+   "stages": [
+    "st105"
+   ],
+   "baseHealth": 5000,
+   "class": "construct"
+  },
+  {
+   "id": 1401863296,
+   "name": "Xu Wu",
+   "tempered": true,
+   "arch": false,
+   "stages": [
+    "st105",
+    "st401"
+   ],
+   "baseHealth": 4500,
+   "class": "cephalopod"
+  },
+  {
+   "id": -535078400,
+   "name": "Gravios",
+   "tempered": true,
+   "arch": false,
+   "stages": [
+    "st401"
+   ],
+   "baseHealth": 5500,
+   "class": "flying-wyvern"
+  },
+  {
+   "id": 2129596800,
+   "name": "Blangonga",
+   "tempered": true,
+   "arch": false,
+   "stages": [
+    "st104",
+    "st401"
+   ],
+   "baseHealth": 4500,
+   "class": "fanged-beast"
+  },
+  {
+   "id": 32634,
+   "name": "Mizutsune",
+   "tempered": true,
+   "arch": false,
+   "stages": [
+    "st401"
+   ],
+   "baseHealth": 5500,
+   "class": "leviathan"
+  },
+  {
+   "id": 25,
+   "name": "Seregios",
+   "tempered": false,
+   "arch": false,
+   "stages": [
+    "st101",
+    "st401"
+   ],
+   "baseHealth": 5500,
+   "class": "flying-wyvern"
+  },
+  {
+   "id": -1083842944,
+   "name": "Lagiacrus",
+   "tempered": true,
+   "arch": false,
+   "stages": [
+    "st401"
+   ],
+   "baseHealth": 5600,
+   "class": "leviathan"
+  },
+  {
+   "id": -1547364608,
+   "name": "Rey Dau",
+   "tempered": true,
+   "arch": true,
+   "stages": [
+    "st101",
+    "st401"
+   ],
+   "baseHealth": 5000,
+   "class": "flying-wyvern"
+  },
+  {
+   "id": 1467998976,
+   "name": "Uth Duna",
+   "tempered": false,
+   "arch": true,
+   "stages": [
+    "st102"
+   ],
+   "baseHealth": 5500,
+   "class": "leviathan"
+  },
+  {
+   "id": 1657778432,
+   "name": "Nu Udra",
+   "tempered": false,
+   "arch": true,
+   "stages": [
+    "st103",
+    "st401"
+   ],
+   "baseHealth": 5250,
+   "class": "cephalopod"
+  },
+  {
+   "id": 1553456768,
+   "name": "Jin Dahaad",
+   "tempered": false,
+   "arch": true,
+   "stages": [
+    "st402"
+   ],
+   "baseHealth": 7400,
+   "class": "leviathan"
+  },
+  {
+   "id": 746996864,
+   "name": "Arkveld",
+   "tempered": false,
+   "arch": true,
+   "stages": [
+    "st105",
+    "st401"
+   ],
+   "baseHealth": 5200,
+   "class": "flying-wyvern"
+  },
+  {
+   "id": -758250816,
+   "name": "Gore Magala",
+   "tempered": false,
+   "arch": false,
+   "stages": [
+    "st401"
+   ],
+   "baseHealth": 5100,
+   "class": "demi-elder"
+  },
+  {
+   "id": 21849,
+   "name": "Omega Planetes",
+   "tempered": true,
+   "arch": false,
+   "stages": [
+    "st402"
+   ],
+   "baseHealth": 7000,
+   "class": "machine"
+  },
+  {
+   "id": 13052,
+   "name": "Gogmazios",
+   "tempered": false,
+   "arch": false,
+   "stages": [
+    "st405"
+   ],
+   "baseHealth": 10000,
+   "class": "elder-dragon"
+  },
+  {
+   "id": -2003468672,
+   "name": "Zoh Shia",
+   "tempered": false,
+   "arch": false,
+   "stages": [
+    "st403"
+   ],
+   "baseHealth": 9000,
+   "class": "construct"
+  },
+  {
+   "id": -283654400,
+   "name": "Guardian Arkveld",
+   "tempered": false,
+   "arch": false,
+   "stages": [],
+   "baseHealth": 5200,
+   "class": "construct"
+  }
+ ],
+ "ranks": [
+  {
+   "name": "★1-3.5",
+   "guid": "834f1ed4-aa1f-4a1d-bd63-a83022c0c0fc",
+   "star": 1,
+   "tier": 3.5,
+   "label": "★1-3.5",
+   "special": false
+  },
+  {
+   "name": "★2-3",
+   "guid": "e7504b4e-9b0d-4cc7-918e-c66abf352fcb",
+   "star": 2,
+   "tier": 3.0,
+   "label": "★2-3",
+   "special": false
+  },
+  {
+   "name": "★4-3",
+   "guid": "8ac996e9-cd2a-4c72-8bbc-e42cfa8df67b",
+   "star": 4,
+   "tier": 3.0,
+   "label": "★4-3",
+   "special": false
+  },
+  {
+   "name": "★4-3（二頭用）",
+   "guid": "2018d3e6-c9b9-48a3-99fc-04bbd2e66415",
+   "star": 4,
+   "tier": 3.0,
+   "label": "★4-3 (pair hunt)",
+   "special": true
+  },
+  {
+   "name": "★5-3",
+   "guid": "d320da89-0663-4541-bbb5-8542f4d307f6",
+   "star": 5,
+   "tier": 3.0,
+   "label": "★5-3",
+   "special": false
+  },
+  {
+   "name": "★5-4",
+   "guid": "6178728a-23ed-4456-97d2-9e5d173dd1f7",
+   "star": 5,
+   "tier": 4.0,
+   "label": "★5-4",
+   "special": false
+  },
+  {
+   "name": "★5-5",
+   "guid": "f5332191-0ae8-4a76-9f31-e61b5048e22d",
+   "star": 5,
+   "tier": 5.0,
+   "label": "★5-5",
+   "special": false
+  },
+  {
+   "name": "★6-3",
+   "guid": "0e9c0fff-7aa6-4087-925c-501a900f602b",
+   "star": 6,
+   "tier": 3.0,
+   "label": "★6-3",
+   "special": false
+  },
+  {
+   "name": "★6-4",
+   "guid": "5998e97c-7f3a-41fa-8122-650e9351c250",
+   "star": 6,
+   "tier": 4.0,
+   "label": "★6-4",
+   "special": false
+  },
+  {
+   "name": "★6-5",
+   "guid": "776ba34f-17a9-4d4c-9794-a11918d0dc00",
+   "star": 6,
+   "tier": 5.0,
+   "label": "★6-5",
+   "special": false
+  },
+  {
+   "name": "★6-3（ラギアクルス）",
+   "guid": "45c309a3-3fdd-4020-8ee3-cfd0a8fad7e1",
+   "star": 6,
+   "tier": 3.0,
+   "label": "★6-3 (Lagiacrus)",
+   "special": true
+  },
+  {
+   "name": "★7-3",
+   "guid": "80e64c45-1926-4659-a954-9654a488f2f0",
+   "star": 7,
+   "tier": 3.0,
+   "label": "★7-3",
+   "special": false
+  },
+  {
+   "name": "★8-3",
+   "guid": "ccaf8a5e-5842-4316-b328-5ad826629f42",
+   "star": 8,
+   "tier": 3.0,
+   "label": "★8-3",
+   "special": false
+  },
+  {
+   "name": "★8-5",
+   "guid": "e889e55e-cea7-4764-ae73-408ba124212c",
+   "star": 8,
+   "tier": 5.0,
+   "label": "★8-5",
+   "special": false
+  },
+  {
+   "name": "★8（狂竜化）",
+   "guid": "1eae46c2-ed4c-4cf7-9aa0-6ef0ac6658be",
+   "star": 8,
+   "tier": 0,
+   "label": "★8 (Frenzied)",
+   "special": true
+  },
+  {
+   "name": "★8-3（歴戦王ヌエグドラ用）",
+   "guid": "b3a5ca9d-ba99-4771-9974-a7471f706d6b",
+   "star": 8,
+   "tier": 3.0,
+   "label": "★8-3 (Arch-Tempered Nu Udra)",
+   "special": true
+  },
+  {
+   "name": "★8-3（歴戦王レダウ用）",
+   "guid": "325d8834-e5ee-4941-af5f-5dfec7cb5541",
+   "star": 8,
+   "tier": 3.0,
+   "label": "★8-3 (Arch-Tempered Rey Dau)",
+   "special": true
+  },
+  {
+   "name": "★8-3（歴戦王ウズトゥナ用）",
+   "guid": "5d6cb3fa-4528-44e1-8a82-6a7fcec3b330",
+   "star": 8,
+   "tier": 3.0,
+   "label": "★8-3 (Arch-Tempered Uth Duna)",
+   "special": true
+  },
+  {
+   "name": "★8-3（ゴグマジオス）",
+   "guid": "14627cdc-9c1a-43e6-ab18-d01c45120a4b",
+   "star": 8,
+   "tier": 3.0,
+   "label": "★8-3 (Gogmazios)",
+   "special": true
+  },
+  {
+   "name": "★8-3（ラギアクルス）",
+   "guid": "a7238a40-6595-4b05-8f5a-3f0114e1c0f7",
+   "star": 8,
+   "tier": 3.0,
+   "label": "★8-3 (Lagiacrus)",
+   "special": true
+  },
+  {
+   "name": "★8-3（レ・ダウ）",
+   "guid": "a67d83c2-6e30-4838-baae-dcda67126a93",
+   "star": 8,
+   "tier": 3.0,
+   "label": "★8-3 (Rey Dau)",
+   "special": true
+  },
+  {
+   "name": "★8-3（高難度）",
+   "guid": "f6554537-09bf-4911-8139-ce95843973fc",
+   "star": 8,
+   "tier": 3.0,
+   "label": "★8-3 (high difficulty)",
+   "special": true
+  },
+  {
+   "name": "★8-5（零式オメガ）",
+   "guid": "ccaab685-ce7a-4c66-9027-21700b9185a5",
+   "star": 8,
+   "tier": 5.0,
+   "label": "★8-5 (Zero-type Omega)",
+   "special": true
+  },
+  {
+   "name": "★8-5（高難度）",
+   "guid": "3ba88339-3d81-4ae6-85e0-dafa2af189f8",
+   "star": 8,
+   "tier": 5.0,
+   "label": "★8-5 (high difficulty)",
+   "special": true
+  },
+  {
+   "name": "★9-5",
+   "guid": "aa92e87f-9a58-4a8f-8613-c00ddb9e763a",
+   "star": 9,
+   "tier": 5.0,
+   "label": "★9-5",
+   "special": false
+  },
+  {
+   "name": "★9-3（歴戦王ジンダハド用）",
+   "guid": "60296cc8-7c2b-4e7e-9609-d9f4305da417",
+   "star": 9,
+   "tier": 3.0,
+   "label": "★9-3 (Arch-Tempered Jin Dahaad)",
+   "special": true
+  },
+  {
+   "name": "★9-3（歴戦王ヌエグドラ用）",
+   "guid": "b3a5ca9d-ba99-4771-9974-a7471f706d6b",
+   "star": 9,
+   "tier": 3.0,
+   "label": "★9-3 (Arch-Tempered Nu Udra)",
+   "special": true
+  },
+  {
+   "name": "★10-5",
+   "guid": "92666b5d-ef17-4e5c-90d5-a07e97ee57ac",
+   "star": 10,
+   "tier": 5.0,
+   "label": "★10-5",
+   "special": false
+  },
+  {
+   "name": "★10-5（アルシュベルド）",
+   "guid": "6d893ac4-5f81-4850-b1ac-a2c23845cb15",
+   "star": 10,
+   "tier": 5.0,
+   "label": "★10-5 (Arkveld special)",
+   "special": true
+  },
+  {
+   "name": "★10-5（ゴグマジオス）",
+   "guid": "a80891b3-54b8-4910-bce7-cac155784c2a",
+   "star": 10,
+   "tier": 5.0,
+   "label": "★10-5 (Gogmazios)",
+   "special": true
+  },
+  {
+   "name": "★10-5（ゾシア）",
+   "guid": "64938e94-d384-4567-8ed5-af922379600d",
+   "star": 10,
+   "tier": 5.0,
+   "label": "★10-5 (Zoh Shia / Arch-Tempered Jin Dahaad)",
+   "special": true
+  }
+ ],
+ "placements": {
+  "st102:-1528962176": {
+   "route": "387327dc-cd46-4794-b266-6fc161e3d1ff",
+   "areaNo": 255,
+   "setAreaNo": 2,
+   "initPos": "(0,0,0)"
+  },
+  "st102:15": {
+   "route": "fa4b1264-cc80-499f-a625-9b70e0b3fdff",
+   "areaNo": 255,
+   "setAreaNo": 12,
+   "initPos": "(0,0,0)"
+  },
+  "st103:1657778432": {
+   "route": "de47207d-ffa6-44c5-9caa-e5b1cfd04bfa",
+   "areaNo": 255,
+   "setAreaNo": 17,
+   "initPos": "(0,0,0)"
+  },
+  "st105:-1916429696": {
+   "route": "3b484b1c-ee98-4f90-ada9-0e2c080f18f6",
+   "areaNo": 255,
+   "setAreaNo": 2,
+   "initPos": "(0,0,0)"
+  },
+  "st401:1657778432": {
+   "route": "ad075299-791a-4d85-ada2-1afb4f64b611",
+   "areaNo": 1,
+   "setAreaNo": 255,
+   "initPos": "(-311.00476,-28.134827,156.11992)"
+  },
+  "st104:2129596800": {
+   "route": "9627a035-40fb-42cd-be8f-dc995e48fc57",
+   "areaNo": 255,
+   "setAreaNo": 14,
+   "initPos": "(0,0,0)"
+  },
+  "st401:15": {
+   "route": "f18965ff-069b-430e-a151-5dfa4e2ce266",
+   "areaNo": 1,
+   "setAreaNo": 255,
+   "initPos": "(-311.00476,-28.134827,156.11992)"
+  },
+  "st401:-1547364608": {
+   "route": "6935fb34-4ae2-4d4e-979a-b88b52c65a4e",
+   "areaNo": 1,
+   "setAreaNo": 255,
+   "initPos": "(-311.00476,-28.134827,156.11992)"
+  },
+  "st401:746996864": {
+   "route": "00b32f39-5c63-44b6-8f99-bd593e48a524",
+   "areaNo": 1,
+   "setAreaNo": 255,
+   "initPos": "(-311.00476,-28.134827,156.11992)"
+  },
+  "st105:1411933184": {
+   "route": "6a245ac4-e578-47e6-b4f5-1dfaf0cd4bb5",
+   "areaNo": 255,
+   "setAreaNo": 6,
+   "initPos": "(0,0,0)"
+  },
+  "st105:1965232896": {
+   "route": "e603f375-bb52-4ef9-a7b2-22f868530ad3",
+   "areaNo": 255,
+   "setAreaNo": 5,
+   "initPos": "(0,0,0)"
+  },
+  "st102:1467998976": {
+   "route": "c8ba7538-6c5d-4ba2-acd9-1072ae98a1d9",
+   "areaNo": 255,
+   "setAreaNo": 17,
+   "initPos": "(0,0,0)"
+  },
+  "st401:-758250816": {
+   "route": "20af651f-185d-4026-b73e-6da31b428bae",
+   "areaNo": 1,
+   "setAreaNo": 255,
+   "initPos": "(-311.00476,-28.134827,156.11992)"
+  },
+  "st101:-1547364608": {
+   "route": "68e29b38-65a6-4b05-b347-6079b859bac9",
+   "areaNo": 255,
+   "setAreaNo": 17,
+   "initPos": "(0,0,0)"
+  },
+  "st101:-34937520": {
+   "route": "c7f0ca3a-a7df-492c-804e-759af6952bbe",
+   "areaNo": 255,
+   "setAreaNo": 8,
+   "initPos": "(0,0,0)"
+  },
+  "st102:-1440201088": {
+   "route": "3db8f25a-2ecb-4c55-97c6-464c17197854",
+   "areaNo": 255,
+   "setAreaNo": 6,
+   "initPos": "(0,0,0)"
+  },
+  "st103:1049705664": {
+   "route": "20379825-dfca-46fc-90b8-d13e72653b60",
+   "areaNo": 255,
+   "setAreaNo": 8,
+   "initPos": "(0,0,0)"
+  },
+  "st102:402056736": {
+   "route": "8fdf0f4d-851b-4935-9c2a-0d745d14af75",
+   "areaNo": 255,
+   "setAreaNo": 8,
+   "initPos": "(0,0,0)"
+  },
+  "st405:13052": {
+   "route": "134012c4-3ca3-408a-bb30-d0b3f1ff51ef",
+   "areaNo": 1,
+   "setAreaNo": 255,
+   "initPos": "(1151.4374,-230.0339,-252.032)"
+  },
+  "st105:1401863296": {
+   "route": "7b523da3-b717-4ee9-a505-59d595d21b5f",
+   "areaNo": 255,
+   "setAreaNo": 13,
+   "initPos": "(0,0,0)"
+  },
+  "st105:1663995904": {
+   "route": "58e408b2-7757-4064-8cec-92f05a8e44e6",
+   "areaNo": 255,
+   "setAreaNo": 9,
+   "initPos": "(0,0,0)"
+  },
+  "st402:1553456768": {
+   "route": "a9f69e16-2ca9-421e-ad98-fe3bd9b69715",
+   "areaNo": 255,
+   "setAreaNo": 1,
+   "initPos": "(0,0,0)"
+  },
+  "st401:1401863296": {
+   "route": "d95639b5-0574-45d5-af64-d2f9b8552895",
+   "areaNo": 255,
+   "setAreaNo": 2,
+   "initPos": "(0,0,0)"
+  },
+  "st401:32634": {
+   "route": "0da9a0ac-944d-48bd-8cca-35a63f374816",
+   "areaNo": 1,
+   "setAreaNo": 255,
+   "initPos": "(-311.00476,-28.134827,156.11992)"
+  },
+  "st401:16": {
+   "route": "70583438-ace8-4111-8e2b-5595719bf0e6",
+   "areaNo": 255,
+   "setAreaNo": 2,
+   "initPos": "(0,0,0)"
+  },
+  "st401:-1528962176": {
+   "route": "20c9bc9a-33c2-49ea-9e55-0d8146bf045e",
+   "areaNo": 1,
+   "setAreaNo": 255,
+   "initPos": "(-311.00476,-28.134827,156.11992)"
+  },
+  "st401:402056736": {
+   "route": "efed136d-cc4d-438a-8183-7e0cc98655de",
+   "areaNo": 1,
+   "setAreaNo": 255,
+   "initPos": "(-311.00476,-28.134827,156.11992)"
+  },
+  "st105:107194928": {
+   "route": "b5fb2dc5-4f9e-4f2c-aa21-09bb6e2fcbab",
+   "areaNo": 255,
+   "setAreaNo": 9,
+   "initPos": "(0,0,0)"
+  },
+  "st105:746996864": {
+   "route": "ae14233b-6dee-423e-a9f5-b0d457420cd9",
+   "areaNo": 255,
+   "setAreaNo": 15,
+   "initPos": "(0,0,0)"
+  },
+  "st103:567628288": {
+   "route": "c3fe1131-f3ca-4a0a-add2-cca6e4ea8564",
+   "areaNo": 255,
+   "setAreaNo": 7,
+   "initPos": "(0,0,0)"
+  },
+  "st101:25": {
+   "route": "454a1c82-7bda-4dbc-bd78-ff487cb82b84",
+   "areaNo": 255,
+   "setAreaNo": 13,
+   "initPos": "(0,0,0)"
+  },
+  "st401:-34937520": {
+   "route": "de816f0e-5aae-48e5-8626-5519f8424c49",
+   "areaNo": 1,
+   "setAreaNo": 255,
+   "initPos": "(-311.00476,-28.134827,156.11992)"
+  },
+  "st401:1965232896": {
+   "route": "1805d83d-6d67-4830-891d-1c0801f75af9",
+   "areaNo": 1,
+   "setAreaNo": 255,
+   "initPos": "(-311.00476,-28.134827,156.11992)"
+  },
+  "st402:21849": {
+   "route": "7baeb84a-c299-4fb8-8891-80afd3e0bfb6",
+   "areaNo": 1,
+   "setAreaNo": 255,
+   "initPos": "(-529,87,701)"
+  },
+  "st403:-2003468672": {
+   "route": "fc4f203d-cbd8-46fe-bed0-bf8da0c1e6fa",
+   "areaNo": 255,
+   "setAreaNo": 1,
+   "initPos": "(0,0,0)"
+  },
+  "st104:-1363370496": {
+   "route": "5d8890ee-4191-4d11-9139-5f0a94710aa0",
+   "areaNo": 255,
+   "setAreaNo": 5,
+   "initPos": "(0,0,0)"
+  },
+  "st101:33": {
+   "route": "bce92111-6e2e-4784-92fb-af4e44792fea",
+   "areaNo": 255,
+   "setAreaNo": 1,
+   "initPos": "(0,0,0)"
+  },
+  "st401:-535078400": {
+   "route": "1559558f-0ace-4eb9-ba7d-2d39c3ef19ef",
+   "areaNo": 1,
+   "setAreaNo": 255,
+   "initPos": "(-311.00476,-28.134827,156.11992)"
+  },
+  "st401:-1083842944": {
+   "route": "affe219c-66e2-41fc-b684-f2563c829b79",
+   "areaNo": 1,
+   "setAreaNo": 255,
+   "initPos": "(-249.86357,-25.02079,146.7028)"
+  },
+  "st103:777460864": {
+   "route": "dc686ba3-dbe6-49e3-b60c-3bae9f0c3f07",
+   "areaNo": 255,
+   "setAreaNo": 7,
+   "initPos": "(0,0,0)"
+  },
+  "st105:-34937520": {
+   "route": "cee78d61-94f6-47f9-94e1-e2ca028bea29",
+   "areaNo": 255,
+   "setAreaNo": 6,
+   "initPos": "(0,0,0)"
+  },
+  "st101:26": {
+   "route": "1282fcd3-859d-4c3a-ab5b-cbed18adefdb",
+   "areaNo": 255,
+   "setAreaNo": 8,
+   "initPos": "(0,0,0)"
+  },
+  "st401:-1363370496": {
+   "route": "7ae19f9f-f315-4f16-83c4-f7f995c54fcc",
+   "areaNo": 255,
+   "setAreaNo": 2,
+   "initPos": "(0,0,0)"
+  },
+  "st401:1049705664": {
+   "route": "6b079660-f266-421d-b84d-570ec44d4710",
+   "areaNo": 255,
+   "setAreaNo": 3,
+   "initPos": "(0,0,0)"
+  },
+  "st401:2129596800": {
+   "route": "69ec862a-8a10-4a24-a6c8-192df83bb4f4",
+   "areaNo": 255,
+   "setAreaNo": 2,
+   "initPos": "(0,0,0)"
+  },
+  "st101:15": {
+   "route": "ab35944d-a500-4f19-95c1-320961722e7c",
+   "areaNo": 255,
+   "setAreaNo": 8,
+   "initPos": "(0,0,0)"
+  },
+  "st401:25": {
+   "route": "335f7adc-f20b-43df-ba69-490595ac93dc",
+   "areaNo": 1,
+   "setAreaNo": 255,
+   "initPos": "(-311.00476,-28.134827,156.11992)"
+  },
+  "st104:222933952": {
+   "route": "8e1be673-871f-4e12-9b54-f9bac5f041e0",
+   "areaNo": 255,
+   "setAreaNo": 8,
+   "initPos": "(0,0,0)"
+  },
+  "st101:16": {
+   "route": "9628296b-c29e-419f-8817-429c42b17b77",
+   "areaNo": 255,
+   "setAreaNo": 11,
+   "initPos": "(0,0,0)"
+  },
+  "st102:26": {
+   "route": "86c39941-79d8-4ee9-925a-815b4fd8cc0a",
+   "areaNo": 255,
+   "setAreaNo": 8,
+   "initPos": "(0,0,0)"
+  }
+ },
+ "sizes": [
+  {
+   "label": "Random size (standard)",
+   "name": "A2（通常）",
+   "guid": "491a26dd-c078-4d85-bd57-ccfcfab7b18f"
+  },
+  {
+   "label": "Random size (larger)",
+   "name": "A（大きめ）",
+   "guid": "cfdb8941-1671-4ced-b673-7a4bd98d9a65"
+  },
+  {
+   "label": "Random size (smaller)",
+   "name": "A（小さめ）",
+   "guid": "f8718413-dced-4321-b5ed-a05aa7df8fa2"
+  },
+  {
+   "label": "Random size (crown guaranteed A)",
+   "name": "A（銀冠確定）",
+   "guid": "0e99302c-21e1-45f6-a46d-7eb70ca901a6"
+  },
+  {
+   "label": "Random size (crown guaranteed B)",
+   "name": "B（銀冠確定）",
+   "guid": "05626a59-177c-43f0-87dc-73dfaab8b27d"
+  }
+ ],
+ "envs": [
+  {
+   "label": "Fallow",
+   "name": "荒廃期",
+   "id": 1961958400
+  },
+  {
+   "label": "Plenty",
+   "name": "豊穣期",
+   "id": 1272023808
+  },
+  {
+   "label": "Inclemency",
+   "name": "異常気象",
+   "id": -1111779072
+  }
+ ],
+ "items": [
+  {
+   "id": 97,
+   "name": "Acute Fang"
+  },
+  {
+   "id": 171,
+   "name": "Adamant Pill"
+  },
+  {
+   "id": 126,
+   "name": "Adamant Seed"
+  },
+  {
+   "id": 623,
+   "name": "Advanced Armor Sphere"
+  },
+  {
+   "id": 219,
+   "name": "Airy Egg"
+  },
+  {
+   "id": 370,
+   "name": "Ajarakan Carapace"
+  },
+  {
+   "id": 368,
+   "name": "Ajarakan Certificate"
+  },
+  {
+   "id": 374,
+   "name": "Ajarakan Certificate S"
+  },
+  {
+   "id": 366,
+   "name": "Ajarakan Jewel"
+  },
+  {
+   "id": 372,
+   "name": "Ajarakan Jewel+"
+  },
+  {
+   "id": 367,
+   "name": "Ajarakan Marrow"
+  },
+  {
+   "id": 373,
+   "name": "Ajarakan Medulla"
+  },
+  {
+   "id": 364,
+   "name": "Ajarakan Ridge"
+  },
+  {
+   "id": 371,
+   "name": "Ajarakan Ridge+"
+  },
+  {
+   "id": 362,
+   "name": "Ajarakan Scale"
+  },
+  {
+   "id": 369,
+   "name": "Ajarakan Scale+"
+  },
+  {
+   "id": 363,
+   "name": "Ajarakan Shell"
+  },
+  {
+   "id": 365,
+   "name": "Ajarakan Tail"
+  },
+  {
+   "id": 789,
+   "name": "Amstrigian Ticket"
+  },
+  {
+   "id": 260,
+   "name": "Ancient Fossil"
+  },
+  {
+   "id": 157,
+   "name": "Ancient Orb - Armor"
+  },
+  {
+   "id": 620,
+   "name": "Ancient Orb - Sword"
+  },
+  {
+   "id": 5,
+   "name": "Ancient Potion"
+  },
+  {
+   "id": 478,
+   "name": "Ancient Weapon Fragment"
+  },
+  {
+   "id": 473,
+   "name": "Ancient Wyvern Coin"
+  },
+  {
+   "id": 3,
+   "name": "Antidote"
+  },
+  {
+   "id": 26,
+   "name": "Antidote Herb"
+  },
+  {
+   "id": 246,
+   "name": "Antimite"
+  },
+  {
+   "id": 248,
+   "name": "Antimite Mass"
+  },
+  {
+   "id": 594,
+   "name": "Aqua Sac"
+  },
+  {
+   "id": 667,
+   "name": "Argecite"
+  },
+  {
+   "id": 459,
+   "name": "Arkveld Armorplate"
+  },
+  {
+   "id": 462,
+   "name": "Arkveld Calloushell"
+  },
+  {
+   "id": 465,
+   "name": "Arkveld Certificate S"
+  },
+  {
+   "id": 760,
+   "name": "Arkveld Certificate γ"
+  },
+  {
+   "id": 464,
+   "name": "Arkveld Gem"
+  },
+  {
+   "id": 463,
+   "name": "Arkveld Horn+"
+  },
+  {
+   "id": 458,
+   "name": "Arkveld Scale+"
+  },
+  {
+   "id": 455,
+   "name": "Arkveld Tail"
+  },
+  {
+   "id": 413,
+   "name": "Armor Ammo"
+  },
+  {
+   "id": 621,
+   "name": "Armor Sphere"
+  },
+  {
+   "id": 622,
+   "name": "Armor Sphere+"
+  },
+  {
+   "id": 152,
+   "name": "Armorcharm"
+  },
+  {
+   "id": 170,
+   "name": "Armorskin"
+  },
+  {
+   "id": 780,
+   "name": "Assisted Combo: Akuma"
+  },
+  {
+   "id": 245,
+   "name": "Auric Oil"
+  },
+  {
+   "id": 828,
+   "name": "Azure Stargem"
+  },
+  {
+   "id": 807,
+   "name": "Azuz Meal Voucher"
+  },
+  {
+   "id": 610,
+   "name": "Azuz Tanned Leather"
+  },
+  {
+   "id": 703,
+   "name": "Balahara Black Pearl"
+  },
+  {
+   "id": 312,
+   "name": "Balahara Carapace"
+  },
+  {
+   "id": 310,
+   "name": "Balahara Certificate"
+  },
+  {
+   "id": 314,
+   "name": "Balahara Certificate S"
+  },
+  {
+   "id": 80,
+   "name": "Balahara Scale"
+  },
+  {
+   "id": 311,
+   "name": "Balahara Scale+"
+  },
+  {
+   "id": 79,
+   "name": "Balahara Shell"
+  },
+  {
+   "id": 81,
+   "name": "Balahara Skull"
+  },
+  {
+   "id": 313,
+   "name": "Balahara Skull+"
+  },
+  {
+   "id": 82,
+   "name": "Balahara Tail"
+  },
+  {
+   "id": 13,
+   "name": "Barrel Bomb"
+  },
+  {
+   "id": 783,
+   "name": "Barrel Bowling Voucher"
+  },
+  {
+   "id": 469,
+   "name": "Basic Material"
+  },
+  {
+   "id": 824,
+   "name": "Battle-tempered Emblem"
+  },
+  {
+   "id": 802,
+   "name": "Beach Barrel Bomb"
+  },
+  {
+   "id": 36,
+   "name": "Beast Gem"
+  },
+  {
+   "id": 22,
+   "name": "Binoculars"
+  },
+  {
+   "id": 533,
+   "name": "Bird Wyvern Gem"
+  },
+  {
+   "id": 28,
+   "name": "Bitterbug Broth"
+  },
+  {
+   "id": 718,
+   "name": "Blackember Mass"
+  },
+  {
+   "id": 812,
+   "name": "Bladescale Pod"
+  },
+  {
+   "id": 576,
+   "name": "Blango Pelt+"
+  },
+  {
+   "id": 540,
+   "name": "Blangonga Certificate S"
+  },
+  {
+   "id": 537,
+   "name": "Blangonga Fang+"
+  },
+  {
+   "id": 536,
+   "name": "Blangonga Pelt+"
+  },
+  {
+   "id": 539,
+   "name": "Blangonga Tail"
+  },
+  {
+   "id": 538,
+   "name": "Blangonga Whisker"
+  },
+  {
+   "id": 681,
+   "name": "Blast Coating"
+  },
+  {
+   "id": 129,
+   "name": "Blastnut"
+  },
+  {
+   "id": 70,
+   "name": "Bleeding Pod"
+  },
+  {
+   "id": 801,
+   "name": "Blossom Barrel Bomb"
+  },
+  {
+   "id": 762,
+   "name": "Blossom Ticket"
+  },
+  {
+   "id": 763,
+   "name": "Blossomdance Catalog"
+  },
+  {
+   "id": 761,
+   "name": "Blossomdance Ticket"
+  },
+  {
+   "id": 784,
+   "name": "Blossomdance Voucher"
+  },
+  {
+   "id": 66,
+   "name": "Blue Mushroom"
+  },
+  {
+   "id": 641,
+   "name": "Bomb Arowana Scale"
+  },
+  {
+   "id": 190,
+   "name": "Bomb Pod"
+  },
+  {
+   "id": 290,
+   "name": "Bomberry"
+  },
+  {
+   "id": 187,
+   "name": "Brightmoss"
+  },
+  {
+   "id": 59,
+   "name": "Brute Bone"
+  },
+  {
+   "id": 725,
+   "name": "Bubblefoam+"
+  },
+  {
+   "id": 487,
+   "name": "Bulaqchi Carapace"
+  },
+  {
+   "id": 93,
+   "name": "Bulaqchi Shell"
+  },
+  {
+   "id": 244,
+   "name": "Bulky Treasure"
+  },
+  {
+   "id": 10,
+   "name": "Burnt Meat"
+  },
+  {
+   "id": 640,
+   "name": "Burst Arowana Scale"
+  },
+  {
+   "id": 68,
+   "name": "Burst Pod"
+  },
+  {
+   "id": 23,
+   "name": "Camping Kit"
+  },
+  {
+   "id": 17,
+   "name": "Capture Net"
+  },
+  {
+   "id": 55,
+   "name": "Carbalite Ore"
+  },
+  {
+   "id": 633,
+   "name": "Catalyst"
+  },
+  {
+   "id": 264,
+   "name": "Chaliceweed"
+  },
+  {
+   "id": 630,
+   "name": "Charred Lizard"
+  },
+  {
+   "id": 585,
+   "name": "Charred Oilbone"
+  },
+  {
+   "id": 776,
+   "name": "Chata Coin"
+  },
+  {
+   "id": 295,
+   "name": "Chatacabra Carapace"
+  },
+  {
+   "id": 291,
+   "name": "Chatacabra Certificate"
+  },
+  {
+   "id": 296,
+   "name": "Chatacabra Certificate S"
+  },
+  {
+   "id": 84,
+   "name": "Chatacabra Hide"
+  },
+  {
+   "id": 294,
+   "name": "Chatacabra Hide+"
+  },
+  {
+   "id": 83,
+   "name": "Chatacabra Jaw"
+  },
+  {
+   "id": 293,
+   "name": "Chatacabra Jaw+"
+  },
+  {
+   "id": 86,
+   "name": "Chatacabra Scale"
+  },
+  {
+   "id": 292,
+   "name": "Chatacabra Scale+"
+  },
+  {
+   "id": 85,
+   "name": "Chatacabra Shell"
+  },
+  {
+   "id": 476,
+   "name": "Chillshroom"
+  },
+  {
+   "id": 178,
+   "name": "Cleanser"
+  },
+  {
+   "id": 675,
+   "name": "Close-range Coating"
+  },
+  {
+   "id": 590,
+   "name": "Cloudy Crystal"
+  },
+  {
+   "id": 41,
+   "name": "Cluster Bomb"
+  },
+  {
+   "id": 60,
+   "name": "Colossal Bone"
+  },
+  {
+   "id": 605,
+   "name": "Coma Sac"
+  },
+  {
+   "id": 498,
+   "name": "Comaqchi Carapace"
+  },
+  {
+   "id": 497,
+   "name": "Comaqchi Shell"
+  },
+  {
+   "id": 615,
+   "name": "Commission Ticket"
+  },
+  {
+   "id": 669,
+   "name": "Common Wood Minnow"
+  },
+  {
+   "id": 818,
+   "name": "Compact Anti-Wyvern Gun"
+  },
+  {
+   "id": 570,
+   "name": "Conga Pelt"
+  },
+  {
+   "id": 571,
+   "name": "Conga Pelt+"
+  },
+  {
+   "id": 507,
+   "name": "Congalala Certificate"
+  },
+  {
+   "id": 584,
+   "name": "Congalala Certificate S"
+  },
+  {
+   "id": 504,
+   "name": "Congalala Claw"
+  },
+  {
+   "id": 509,
+   "name": "Congalala Claw+"
+  },
+  {
+   "id": 505,
+   "name": "Congalala Fang"
+  },
+  {
+   "id": 510,
+   "name": "Congalala Fang+"
+  },
+  {
+   "id": 503,
+   "name": "Congalala Pelt"
+  },
+  {
+   "id": 508,
+   "name": "Congalala Pelt+"
+  },
+  {
+   "id": 165,
+   "name": "Cool Drink"
+  },
+  {
+   "id": 628,
+   "name": "Corrupted Mantle"
+  },
+  {
+   "id": 591,
+   "name": "Coruscating Crystal"
+  },
+  {
+   "id": 589,
+   "name": "Crushed Crystal"
+  },
+  {
+   "id": 609,
+   "name": "Dalthydon Wool"
+  },
+  {
+   "id": 158,
+   "name": "Damaged Weapon Shard"
+  },
+  {
+   "id": 534,
+   "name": "Dash Extract"
+  },
+  {
+   "id": 163,
+   "name": "Dash Juice"
+  },
+  {
+   "id": 215,
+   "name": "Delishroom"
+  },
+  {
+   "id": 412,
+   "name": "Demon Ammo"
+  },
+  {
+   "id": 175,
+   "name": "Demon Powder"
+  },
+  {
+   "id": 167,
+   "name": "Demondrug"
+  },
+  {
+   "id": 211,
+   "name": "Deodorant"
+  },
+  {
+   "id": 128,
+   "name": "Devil's Blight"
+  },
+  {
+   "id": 765,
+   "name": "Diving Ticket"
+  },
+  {
+   "id": 315,
+   "name": "Doshaguma Certificate"
+  },
+  {
+   "id": 320,
+   "name": "Doshaguma Certificate S"
+  },
+  {
+   "id": 34,
+   "name": "Doshaguma Claw"
+  },
+  {
+   "id": 318,
+   "name": "Doshaguma Claw+"
+  },
+  {
+   "id": 35,
+   "name": "Doshaguma Fang"
+  },
+  {
+   "id": 319,
+   "name": "Doshaguma Fang+"
+  },
+  {
+   "id": 33,
+   "name": "Doshaguma Fur"
+  },
+  {
+   "id": 316,
+   "name": "Doshaguma Fur+"
+  },
+  {
+   "id": 32,
+   "name": "Doshaguma Hide"
+  },
+  {
+   "id": 317,
+   "name": "Doshaguma Hide+"
+  },
+  {
+   "id": 793,
+   "name": "Doshaguma Sketch"
+  },
+  {
+   "id": 46,
+   "name": "Dragon Ammo"
+  },
+  {
+   "id": 286,
+   "name": "Dragon Pod"
+  },
+  {
+   "id": 61,
+   "name": "Dragonbone Relic"
+  },
+  {
+   "id": 118,
+   "name": "Dragonfell Berry"
+  },
+  {
+   "id": 54,
+   "name": "Dragonite Ore"
+  },
+  {
+   "id": 251,
+   "name": "Dragonscale Vase"
+  },
+  {
+   "id": 289,
+   "name": "Dragonstrike Nut"
+  },
+  {
+   "id": 770,
+   "name": "Dreamspell Catalog"
+  },
+  {
+   "id": 768,
+   "name": "Dreamspell Ticket"
+  },
+  {
+   "id": 786,
+   "name": "Dreamspell Voucher"
+  },
+  {
+   "id": 665,
+   "name": "Drearisite"
+  },
+  {
+   "id": 471,
+   "name": "Drearisite Scraps"
+  },
+  {
+   "id": 261,
+   "name": "Drifting Sea Pot"
+  },
+  {
+   "id": 782,
+   "name": "Drive Impact"
+  },
+  {
+   "id": 214,
+   "name": "Droolshroom"
+  },
+  {
+   "id": 185,
+   "name": "Drugged Meat"
+  },
+  {
+   "id": 98,
+   "name": "Dung"
+  },
+  {
+   "id": 71,
+   "name": "Dung Pod"
+  },
+  {
+   "id": 177,
+   "name": "Dust of Life"
+  },
+  {
+   "id": 673,
+   "name": "Duster Rig"
+  },
+  {
+   "id": 56,
+   "name": "Earth Crystal"
+  },
+  {
+   "id": 223,
+   "name": "Eastern Honey"
+  },
+  {
+   "id": 671,
+   "name": "Emerald Jitterbait"
+  },
+  {
+   "id": 162,
+   "name": "Energy Drink"
+  },
+  {
+   "id": 240,
+   "name": "Eternal Scarlet Amber"
+  },
+  {
+   "id": 627,
+   "name": "Evasion Mantle"
+  },
+  {
+   "id": 73,
+   "name": "Exciteshroom"
+  },
+  {
+   "id": 416,
+   "name": "Exhaust Ammo"
+  },
+  {
+   "id": 682,
+   "name": "Exhaust Coating"
+  },
+  {
+   "id": 707,
+   "name": "Expedition Headgear Ticket"
+  },
+  {
+   "id": 201,
+   "name": "EZ Demon Powder"
+  },
+  {
+   "id": 205,
+   "name": "EZ Dung Pod"
+  },
+  {
+   "id": 203,
+   "name": "EZ Dust of Life"
+  },
+  {
+   "id": 209,
+   "name": "EZ Farcaster"
+  },
+  {
+   "id": 121,
+   "name": "EZ Flash Bomb"
+  },
+  {
+   "id": 202,
+   "name": "EZ Hardshell Powder"
+  },
+  {
+   "id": 200,
+   "name": "EZ Herbal Powder"
+  },
+  {
+   "id": 208,
+   "name": "EZ Large Barrel Bomb"
+  },
+  {
+   "id": 457,
+   "name": "EZ Large Dung Pod"
+  },
+  {
+   "id": 199,
+   "name": "EZ Lifepowder"
+  },
+  {
+   "id": 198,
+   "name": "EZ Max Potion"
+  },
+  {
+   "id": 123,
+   "name": "EZ Pitfall Trap"
+  },
+  {
+   "id": 120,
+   "name": "EZ Ration"
+  },
+  {
+   "id": 122,
+   "name": "EZ Shock Trap"
+  },
+  {
+   "id": 206,
+   "name": "EZ Sonic Bomb"
+  },
+  {
+   "id": 204,
+   "name": "EZ Tranq Bomb"
+  },
+  {
+   "id": 76,
+   "name": "Farcaster"
+  },
+  {
+   "id": 716,
+   "name": "Faux Whitegleam Orb"
+  },
+  {
+   "id": 831,
+   "name": "Felyne Fur Ruby"
+  },
+  {
+   "id": 778,
+   "name": "Felyne Ticket"
+  },
+  {
+   "id": 800,
+   "name": "Felyne Wanted Poster"
+  },
+  {
+   "id": 234,
+   "name": "Fiery Sandpepper"
+  },
+  {
+   "id": 247,
+   "name": "Fine Antimite"
+  },
+  {
+   "id": 239,
+   "name": "Fine Scarlet Amber"
+  },
+  {
+   "id": 231,
+   "name": "Fine Windward Aloe"
+  },
+  {
+   "id": 115,
+   "name": "Fire Herb"
+  },
+  {
+   "id": 580,
+   "name": "Firecell Stone"
+  },
+  {
+   "id": 579,
+   "name": "Firestone"
+  },
+  {
+   "id": 119,
+   "name": "First-aid Med"
+  },
+  {
+   "id": 197,
+   "name": "First-aid Med+"
+  },
+  {
+   "id": 161,
+   "name": "Fishing Rod"
+  },
+  {
+   "id": 592,
+   "name": "Flame Sac"
+  },
+  {
+   "id": 766,
+   "name": "Flamefete Catalog"
+  },
+  {
+   "id": 764,
+   "name": "Flamefete Ticket"
+  },
+  {
+   "id": 785,
+   "name": "Flamefete Voucher"
+  },
+  {
+   "id": 42,
+   "name": "Flaming Ammo"
+  },
+  {
+   "id": 15,
+   "name": "Flash Pod"
+  },
+  {
+   "id": 29,
+   "name": "Flashbug Phosphor"
+  },
+  {
+   "id": 116,
+   "name": "Flowfern"
+  },
+  {
+   "id": 218,
+   "name": "Fluffy Egg"
+  },
+  {
+   "id": 267,
+   "name": "Fossilized Fire Opal"
+  },
+  {
+   "id": 266,
+   "name": "Fossilized Opal"
+  },
+  {
+   "id": 45,
+   "name": "Freeze Ammo"
+  },
+  {
+   "id": 599,
+   "name": "Freezer Sac"
+  },
+  {
+   "id": 569,
+   "name": "Frenzy Crystal"
+  },
+  {
+   "id": 417,
+   "name": "Frenzy Shard"
+  },
+  {
+   "id": 287,
+   "name": "Fresh Honey"
+  },
+  {
+   "id": 285,
+   "name": "Frost Pod"
+  },
+  {
+   "id": 598,
+   "name": "Frost Sac"
+  },
+  {
+   "id": 288,
+   "name": "Frostburst"
+  },
+  {
+   "id": 586,
+   "name": "Frozen Icebone"
+  },
+  {
+   "id": 581,
+   "name": "Fucium Ore"
+  },
+  {
+   "id": 235,
+   "name": "Fulgurite Shard"
+  },
+  {
+   "id": 393,
+   "name": "G. Doshaguma Certificate"
+  },
+  {
+   "id": 398,
+   "name": "G. Doshaguma Certificate S"
+  },
+  {
+   "id": 431,
+   "name": "G. Ebony Odogaron Certificate"
+  },
+  {
+   "id": 437,
+   "name": "G. Ebony Odogaron Certificate S"
+  },
+  {
+   "id": 404,
+   "name": "G. Rathalos Certificate"
+  },
+  {
+   "id": 409,
+   "name": "G. Rathalos Certificate S"
+  },
+  {
+   "id": 613,
+   "name": "Gajau Hide"
+  },
+  {
+   "id": 773,
+   "name": "Gala Suit Ticket"
+  },
+  {
+   "id": 268,
+   "name": "Genesis Opal"
+  },
+  {
+   "id": 160,
+   "name": "Ghillie Mantle"
+  },
+  {
+   "id": 524,
+   "name": "Giant Beak"
+  },
+  {
+   "id": 642,
+   "name": "Gilded Scale"
+  },
+  {
+   "id": 124,
+   "name": "Gloamgrass Bud"
+  },
+  {
+   "id": 156,
+   "name": "Glowing Orb - Armor"
+  },
+  {
+   "id": 619,
+   "name": "Glowing Orb - Sword"
+  },
+  {
+   "id": 820,
+   "name": "Glowing Stone"
+  },
+  {
+   "id": 263,
+   "name": "Gobletweed"
+  },
+  {
+   "id": 30,
+   "name": "Godbug Essence"
+  },
+  {
+   "id": 745,
+   "name": "Gogmazios Certificate S"
+  },
+  {
+   "id": 750,
+   "name": "Gogmazios Fiberwing"
+  },
+  {
+   "id": 747,
+   "name": "Gogmazios Fortalice"
+  },
+  {
+   "id": 748,
+   "name": "Gogmazios Lacerator"
+  },
+  {
+   "id": 746,
+   "name": "Gogmazios Rampart"
+  },
+  {
+   "id": 749,
+   "name": "Gogmazios Shredders"
+  },
+  {
+   "id": 751,
+   "name": "Gogmazios Thorntail"
+  },
+  {
+   "id": 661,
+   "name": "Gold Melding Ticket"
+  },
+  {
+   "id": 662,
+   "name": "Gold Relic Ticket"
+  },
+  {
+   "id": 823,
+   "name": "Gold Talisman Ticket"
+  },
+  {
+   "id": 670,
+   "name": "Golden Bughead"
+  },
+  {
+   "id": 440,
+   "name": "Golden Corneum"
+  },
+  {
+   "id": 447,
+   "name": "Golden Corneum+"
+  },
+  {
+   "id": 652,
+   "name": "Golden Egg"
+  },
+  {
+   "id": 643,
+   "name": "Golden Scale"
+  },
+  {
+   "id": 562,
+   "name": "Gore Magala Carapace"
+  },
+  {
+   "id": 568,
+   "name": "Gore Magala Certificate S"
+  },
+  {
+   "id": 566,
+   "name": "Gore Magala Feeler+"
+  },
+  {
+   "id": 567,
+   "name": "Gore Magala Nyctgem"
+  },
+  {
+   "id": 564,
+   "name": "Gore Magala Ripclaw+"
+  },
+  {
+   "id": 561,
+   "name": "Gore Magala Scale+"
+  },
+  {
+   "id": 565,
+   "name": "Gore Magala Tail"
+  },
+  {
+   "id": 563,
+   "name": "Gore Magala Wing+"
+  },
+  {
+   "id": 781,
+   "name": "Gou Hadoken"
+  },
+  {
+   "id": 697,
+   "name": "Gracium"
+  },
+  {
+   "id": 541,
+   "name": "Gravios Carapace"
+  },
+  {
+   "id": 546,
+   "name": "Gravios Certificate S"
+  },
+  {
+   "id": 544,
+   "name": "Gravios Medulla"
+  },
+  {
+   "id": 543,
+   "name": "Gravios Pleura+"
+  },
+  {
+   "id": 542,
+   "name": "Gravios Skull"
+  },
+  {
+   "id": 545,
+   "name": "Gravios Wing"
+  },
+  {
+   "id": 608,
+   "name": "Great Hibiscus"
+  },
+  {
+   "id": 229,
+   "name": "Great Hornfly"
+  },
+  {
+   "id": 657,
+   "name": "Great Stoutbone"
+  },
+  {
+   "id": 684,
+   "name": "Great Sushifish Scale"
+  },
+  {
+   "id": 232,
+   "name": "Great Windward Aloe"
+  },
+  {
+   "id": 154,
+   "name": "Grounding Pod"
+  },
+  {
+   "id": 606,
+   "name": "Guardian Blood"
+  },
+  {
+   "id": 607,
+   "name": "Guardian Blood+"
+  },
+  {
+   "id": 391,
+   "name": "Guardian Doshaguma Claw"
+  },
+  {
+   "id": 396,
+   "name": "Guardian Doshaguma Claw+"
+  },
+  {
+   "id": 392,
+   "name": "Guardian Doshaguma Fang"
+  },
+  {
+   "id": 397,
+   "name": "Guardian Doshaguma Fang+"
+  },
+  {
+   "id": 389,
+   "name": "Guardian Doshaguma Fur"
+  },
+  {
+   "id": 394,
+   "name": "Guardian Doshaguma Fur+"
+  },
+  {
+   "id": 390,
+   "name": "Guardian Doshaguma Hide"
+  },
+  {
+   "id": 395,
+   "name": "Guardian Doshaguma Hide+"
+  },
+  {
+   "id": 427,
+   "name": "Guardian Ebony Claw"
+  },
+  {
+   "id": 434,
+   "name": "Guardian Ebony Claw+"
+  },
+  {
+   "id": 428,
+   "name": "Guardian Ebony Fang"
+  },
+  {
+   "id": 435,
+   "name": "Guardian Ebony Fang+"
+  },
+  {
+   "id": 436,
+   "name": "Guardian Ebony Gem"
+  },
+  {
+   "id": 430,
+   "name": "Guardian Ebony Plate"
+  },
+  {
+   "id": 425,
+   "name": "Guardian Ebony Scale"
+  },
+  {
+   "id": 432,
+   "name": "Guardian Ebony Scale+"
+  },
+  {
+   "id": 426,
+   "name": "Guardian Ebony Sinew"
+  },
+  {
+   "id": 433,
+   "name": "Guardian Ebony Sinew+"
+  },
+  {
+   "id": 429,
+   "name": "Guardian Ebony Tail"
+  },
+  {
+   "id": 583,
+   "name": "Guardian Fulgur Certificate S"
+  },
+  {
+   "id": 482,
+   "name": "Guardian Fulgur Fang+"
+  },
+  {
+   "id": 485,
+   "name": "Guardian Fulgur Gem"
+  },
+  {
+   "id": 483,
+   "name": "Guardian Fulgur Nosebone+"
+  },
+  {
+   "id": 481,
+   "name": "Guardian Fulgur Pelt+"
+  },
+  {
+   "id": 480,
+   "name": "Guardian Fulgur Scale+"
+  },
+  {
+   "id": 484,
+   "name": "Guardian Fulgur Tail"
+  },
+  {
+   "id": 663,
+   "name": "Guardian Pelt"
+  },
+  {
+   "id": 664,
+   "name": "Guardian Pelt+"
+  },
+  {
+   "id": 406,
+   "name": "Guardian Rathalos Carapace"
+  },
+  {
+   "id": 705,
+   "name": "Guardian Rathalos Plate"
+  },
+  {
+   "id": 704,
+   "name": "Guardian Rathalos Ruby"
+  },
+  {
+   "id": 399,
+   "name": "Guardian Rathalos Scale"
+  },
+  {
+   "id": 405,
+   "name": "Guardian Rathalos Scale+"
+  },
+  {
+   "id": 400,
+   "name": "Guardian Rathalos Shell"
+  },
+  {
+   "id": 402,
+   "name": "Guardian Rathalos Tail"
+  },
+  {
+   "id": 401,
+   "name": "Guardian Rathalos Webbing"
+  },
+  {
+   "id": 407,
+   "name": "Guardian Rathalos Wing"
+  },
+  {
+   "id": 453,
+   "name": "Guardian Scale"
+  },
+  {
+   "id": 454,
+   "name": "Guardian Scale+"
+  },
+  {
+   "id": 501,
+   "name": "Guardian Seikret Feather"
+  },
+  {
+   "id": 502,
+   "name": "Guardian Seikret Feather+"
+  },
+  {
+   "id": 634,
+   "name": "Gunpowder"
+  },
+  {
+   "id": 639,
+   "name": "Gunpowderfish Scale"
+  },
+  {
+   "id": 532,
+   "name": "Gypceros Certificate S"
+  },
+  {
+   "id": 530,
+   "name": "Gypceros Head"
+  },
+  {
+   "id": 531,
+   "name": "Gypceros Tail"
+  },
+  {
+   "id": 529,
+   "name": "Gypceros Wing"
+  },
+  {
+   "id": 624,
+   "name": "Hard Armor Sphere"
+  },
+  {
+   "id": 176,
+   "name": "Hardshell Powder"
+  },
+  {
+   "id": 769,
+   "name": "Harvest Ticket"
+  },
+  {
+   "id": 653,
+   "name": "Heavy Armor Sphere"
+  },
+  {
+   "id": 466,
+   "name": "Heavy Blunt Pod"
+  },
+  {
+   "id": 753,
+   "name": "Heavy Drakesbone Oil"
+  },
+  {
+   "id": 468,
+   "name": "Heavy Explosion Pod"
+  },
+  {
+   "id": 474,
+   "name": "Heavy Piercing Pod"
+  },
+  {
+   "id": 467,
+   "name": "Heavy Slicing Pod"
+  },
+  {
+   "id": 811,
+   "name": "Helix Piercing Pod"
+  },
+  {
+   "id": 25,
+   "name": "Herb"
+  },
+  {
+   "id": 173,
+   "name": "Herbal Medicine"
+  },
+  {
+   "id": 174,
+   "name": "Herbal Powder"
+  },
+  {
+   "id": 486,
+   "name": "Herbivore Carapace"
+  },
+  {
+   "id": 92,
+   "name": "Herbivore Shell"
+  },
+  {
+   "id": 356,
+   "name": "Hirabami Certificate"
+  },
+  {
+   "id": 361,
+   "name": "Hirabami Certificate S"
+  },
+  {
+   "id": 353,
+   "name": "Hirabami Hide"
+  },
+  {
+   "id": 358,
+   "name": "Hirabami Hide+"
+  },
+  {
+   "id": 249,
+   "name": "Hirabami Molting"
+  },
+  {
+   "id": 352,
+   "name": "Hirabami Scale"
+  },
+  {
+   "id": 357,
+   "name": "Hirabami Scale+"
+  },
+  {
+   "id": 355,
+   "name": "Hirabami Tail Claw"
+  },
+  {
+   "id": 360,
+   "name": "Hirabami Tail Claw+"
+  },
+  {
+   "id": 354,
+   "name": "Hirabami Webbing"
+  },
+  {
+   "id": 359,
+   "name": "Hirabami Webbing+"
+  },
+  {
+   "id": 27,
+   "name": "Honey"
+  },
+  {
+   "id": 166,
+   "name": "Hot Drink"
+  },
+  {
+   "id": 477,
+   "name": "Hot Pepper"
+  },
+  {
+   "id": 658,
+   "name": "Hunter Symbol I"
+  },
+  {
+   "id": 659,
+   "name": "Hunter Symbol II"
+  },
+  {
+   "id": 660,
+   "name": "Hunter Symbol III"
+  },
+  {
+   "id": 788,
+   "name": "ICHIRAN Order Form"
+  },
+  {
+   "id": 582,
+   "name": "Icium"
+  },
+  {
+   "id": 164,
+   "name": "Immunizer"
+  },
+  {
+   "id": 593,
+   "name": "Inferno Sac"
+  },
+  {
+   "id": 830,
+   "name": "Insect Husk"
+  },
+  {
+   "id": 52,
+   "name": "Iron Ore"
+  },
+  {
+   "id": 75,
+   "name": "Ivy"
+  },
+  {
+   "id": 225,
+   "name": "Jeweled Mullet Roe"
+  },
+  {
+   "id": 419,
+   "name": "Jin Dahaad Carapace"
+  },
+  {
+   "id": 424,
+   "name": "Jin Dahaad Certificate S"
+  },
+  {
+   "id": 759,
+   "name": "Jin Dahaad Certificate γ"
+  },
+  {
+   "id": 421,
+   "name": "Jin Dahaad Claw+"
+  },
+  {
+   "id": 422,
+   "name": "Jin Dahaad Horn"
+  },
+  {
+   "id": 423,
+   "name": "Jin Dahaad Icegem"
+  },
+  {
+   "id": 420,
+   "name": "Jin Dahaad Iceplate"
+  },
+  {
+   "id": 418,
+   "name": "Jin Dahaad Scale+"
+  },
+  {
+   "id": 706,
+   "name": "Jin Dahaad Tail"
+  },
+  {
+   "id": 280,
+   "name": "Krano Copper"
+  },
+  {
+   "id": 281,
+   "name": "Krano Pyrite"
+  },
+  {
+   "id": 495,
+   "name": "Kranodath Skull"
+  },
+  {
+   "id": 496,
+   "name": "Kranodath Skull+"
+  },
+  {
+   "id": 212,
+   "name": "Kunafa Cheese"
+  },
+  {
+   "id": 806,
+   "name": "Kunafa Meal Voucher"
+  },
+  {
+   "id": 522,
+   "name": "Kut-Ku Carapace"
+  },
+  {
+   "id": 523,
+   "name": "Kut-Ku Ear"
+  },
+  {
+   "id": 521,
+   "name": "Kut-Ku Scale+"
+  },
+  {
+   "id": 525,
+   "name": "Kut-Ku Wing"
+  },
+  {
+   "id": 727,
+   "name": "Lagiacrus Certificate S"
+  },
+  {
+   "id": 733,
+   "name": "Lagiacrus Claw+"
+  },
+  {
+   "id": 729,
+   "name": "Lagiacrus Hide+"
+  },
+  {
+   "id": 731,
+   "name": "Lagiacrus Horn+"
+  },
+  {
+   "id": 734,
+   "name": "Lagiacrus Sapphire"
+  },
+  {
+   "id": 728,
+   "name": "Lagiacrus Scale+"
+  },
+  {
+   "id": 730,
+   "name": "Lagiacrus Shockspike"
+  },
+  {
+   "id": 732,
+   "name": "Lagiacrus Tail"
+  },
+  {
+   "id": 306,
+   "name": "Lala Barina Carapace"
+  },
+  {
+   "id": 275,
+   "name": "Lala Barina Certificate"
+  },
+  {
+   "id": 309,
+   "name": "Lala Barina Certificate S"
+  },
+  {
+   "id": 273,
+   "name": "Lala Barina Claw"
+  },
+  {
+   "id": 307,
+   "name": "Lala Barina Claw+"
+  },
+  {
+   "id": 276,
+   "name": "Lala Barina Floret"
+  },
+  {
+   "id": 305,
+   "name": "Lala Barina Floret+"
+  },
+  {
+   "id": 602,
+   "name": "Lala Barina Mucus"
+  },
+  {
+   "id": 603,
+   "name": "Lala Barina Mucus+"
+  },
+  {
+   "id": 272,
+   "name": "Lala Barina Shell"
+  },
+  {
+   "id": 274,
+   "name": "Lala Barina Stinger"
+  },
+  {
+   "id": 308,
+   "name": "Lala Barina Stinger+"
+  },
+  {
+   "id": 636,
+   "name": "Large Barrel"
+  },
+  {
+   "id": 14,
+   "name": "Large Barrel Bomb"
+  },
+  {
+   "id": 456,
+   "name": "Large Dung Pod"
+  },
+  {
+   "id": 252,
+   "name": "Large Goldenscale Vase"
+  },
+  {
+   "id": 11,
+   "name": "Lifepowder"
+  },
+  {
+   "id": 577,
+   "name": "Lightcrystal"
+  },
+  {
+   "id": 774,
+   "name": "Lumenhymn Catalog"
+  },
+  {
+   "id": 772,
+   "name": "Lumenhymn Ticket"
+  },
+  {
+   "id": 787,
+   "name": "Lumenhymn Voucher"
+  },
+  {
+   "id": 195,
+   "name": "Luring Pod"
+  },
+  {
+   "id": 53,
+   "name": "Machalite Ore"
+  },
+  {
+   "id": 65,
+   "name": "Mandragora"
+  },
+  {
+   "id": 834,
+   "name": "Master Craftsman's Blueprint"
+  },
+  {
+   "id": 254,
+   "name": "Mature Wyveria Lantern"
+  },
+  {
+   "id": 4,
+   "name": "Max Potion"
+  },
+  {
+   "id": 172,
+   "name": "Mega Armorskin"
+  },
+  {
+   "id": 196,
+   "name": "Mega Barrel Bomb"
+  },
+  {
+   "id": 169,
+   "name": "Mega Demondrug"
+  },
+  {
+   "id": 2,
+   "name": "Mega Potion"
+  },
+  {
+   "id": 626,
+   "name": "Mending Mantle"
+  },
+  {
+   "id": 168,
+   "name": "Might Pill"
+  },
+  {
+   "id": 125,
+   "name": "Might Seed"
+  },
+  {
+   "id": 256,
+   "name": "Milky Cocoon Web"
+  },
+  {
+   "id": 617,
+   "name": "Mimiphyta Ticket"
+  },
+  {
+   "id": 719,
+   "name": "Mizutsune Certificate S"
+  },
+  {
+   "id": 722,
+   "name": "Mizutsune Claw+"
+  },
+  {
+   "id": 723,
+   "name": "Mizutsune Fin+"
+  },
+  {
+   "id": 721,
+   "name": "Mizutsune Purplefur+"
+  },
+  {
+   "id": 720,
+   "name": "Mizutsune Scale+"
+  },
+  {
+   "id": 724,
+   "name": "Mizutsune Tail"
+  },
+  {
+   "id": 726,
+   "name": "Mizutsune Water Orb"
+  },
+  {
+   "id": 817,
+   "name": "Mog of the Ages"
+  },
+  {
+   "id": 489,
+   "name": "Monster Broth"
+  },
+  {
+   "id": 224,
+   "name": "Monster Chili"
+  },
+  {
+   "id": 488,
+   "name": "Monster Fluid"
+  },
+  {
+   "id": 655,
+   "name": "Monster Hardbone"
+  },
+  {
+   "id": 654,
+   "name": "Monster Keenbone"
+  },
+  {
+   "id": 836,
+   "name": "Monstie Egg"
+  },
+  {
+   "id": 216,
+   "name": "Mud Shrimp"
+  },
+  {
+   "id": 754,
+   "name": "Mutated Armament"
+  },
+  {
+   "id": 57,
+   "name": "Mystery Bone"
+  },
+  {
+   "id": 155,
+   "name": "Mystery Orb - Armor"
+  },
+  {
+   "id": 618,
+   "name": "Mystery Orb - Sword"
+  },
+  {
+   "id": 792,
+   "name": "Necklace Ticket"
+  },
+  {
+   "id": 517,
+   "name": "Nerscylla Carapace"
+  },
+  {
+   "id": 516,
+   "name": "Nerscylla Certificate"
+  },
+  {
+   "id": 520,
+   "name": "Nerscylla Certificate S"
+  },
+  {
+   "id": 513,
+   "name": "Nerscylla Chelicera"
+  },
+  {
+   "id": 514,
+   "name": "Nerscylla Claw"
+  },
+  {
+   "id": 518,
+   "name": "Nerscylla Claw+"
+  },
+  {
+   "id": 479,
+   "name": "Nerscylla Shear"
+  },
+  {
+   "id": 512,
+   "name": "Nerscylla Shell"
+  },
+  {
+   "id": 515,
+   "name": "Nerscylla Spike"
+  },
+  {
+   "id": 519,
+   "name": "Nerscylla Spike+"
+  },
+  {
+   "id": 638,
+   "name": "Net"
+  },
+  {
+   "id": 265,
+   "name": "Nightflower Pollen"
+  },
+  {
+   "id": 127,
+   "name": "Nitroshroom"
+  },
+  {
+   "id": 37,
+   "name": "Normal Ammo"
+  },
+  {
+   "id": 438,
+   "name": "Nourishing Extract"
+  },
+  {
+   "id": 578,
+   "name": "Novacrystal"
+  },
+  {
+   "id": 380,
+   "name": "Nu Udra Cerebrospinal Fluid"
+  },
+  {
+   "id": 381,
+   "name": "Nu Udra Certificate"
+  },
+  {
+   "id": 388,
+   "name": "Nu Udra Certificate S"
+  },
+  {
+   "id": 758,
+   "name": "Nu Udra Certificate γ"
+  },
+  {
+   "id": 387,
+   "name": "Nu Udra Flamegem"
+  },
+  {
+   "id": 375,
+   "name": "Nu Udra Hide"
+  },
+  {
+   "id": 382,
+   "name": "Nu Udra Hide+"
+  },
+  {
+   "id": 377,
+   "name": "Nu Udra Horn"
+  },
+  {
+   "id": 384,
+   "name": "Nu Udra Horn+"
+  },
+  {
+   "id": 379,
+   "name": "Nu Udra Oilmucus"
+  },
+  {
+   "id": 386,
+   "name": "Nu Udra Oilmucus+"
+  },
+  {
+   "id": 376,
+   "name": "Nu Udra Spike"
+  },
+  {
+   "id": 383,
+   "name": "Nu Udra Spike+"
+  },
+  {
+   "id": 378,
+   "name": "Nu Udra Tentacle"
+  },
+  {
+   "id": 385,
+   "name": "Nu Udra Tentacle+"
+  },
+  {
+   "id": 6,
+   "name": "Nulberry"
+  },
+  {
+   "id": 685,
+   "name": "Old Weapon Shard - Blade"
+  },
+  {
+   "id": 688,
+   "name": "Old Weapon Shard - Device"
+  },
+  {
+   "id": 687,
+   "name": "Old Weapon Shard - Disc"
+  },
+  {
+   "id": 686,
+   "name": "Old Weapon Shard - Tube"
+  },
+  {
+   "id": 741,
+   "name": "Omega Axle"
+  },
+  {
+   "id": 735,
+   "name": "Omega Data 1.0"
+  },
+  {
+   "id": 743,
+   "name": "Omega Data 2.0"
+  },
+  {
+   "id": 739,
+   "name": "Omega Lens"
+  },
+  {
+   "id": 742,
+   "name": "Omega Nodule"
+  },
+  {
+   "id": 738,
+   "name": "Omega Pedal"
+  },
+  {
+   "id": 736,
+   "name": "Omega Screw"
+  },
+  {
+   "id": 737,
+   "name": "Omega Spring"
+  },
+  {
+   "id": 668,
+   "name": "Oricalcite"
+  },
+  {
+   "id": 255,
+   "name": "Origin Wylk Gem"
+  },
+  {
+   "id": 798,
+   "name": "Orion Ticket"
+  },
+  {
+   "id": 194,
+   "name": "Paint Pod"
+  },
+  {
+   "id": 183,
+   "name": "Para Pod"
+  },
+  {
+   "id": 48,
+   "name": "Paralysis Ammo"
+  },
+  {
+   "id": 678,
+   "name": "Paralysis Coating"
+  },
+  {
+   "id": 146,
+   "name": "Paralysis Knife"
+  },
+  {
+   "id": 113,
+   "name": "Parashroom"
+  },
+  {
+   "id": 827,
+   "name": "Pawprint Stamp"
+  },
+  {
+   "id": 645,
+   "name": "Pick-a-meal Voucher"
+  },
+  {
+   "id": 38,
+   "name": "Pierce Ammo"
+  },
+  {
+   "id": 677,
+   "name": "Pierce Coating"
+  },
+  {
+   "id": 191,
+   "name": "Piercing Pod"
+  },
+  {
+   "id": 805,
+   "name": "Pinnacle Coin"
+  },
+  {
+   "id": 492,
+   "name": "Piragill Fin"
+  },
+  {
+   "id": 493,
+   "name": "Piragill Fin+"
+  },
+  {
+   "id": 18,
+   "name": "Pitfall Trap"
+  },
+  {
+   "id": 644,
+   "name": "Platinum Scale"
+  },
+  {
+   "id": 47,
+   "name": "Poison Ammo"
+  },
+  {
+   "id": 679,
+   "name": "Poison Coating"
+  },
+  {
+   "id": 145,
+   "name": "Poison Knife"
+  },
+  {
+   "id": 182,
+   "name": "Poison Pod"
+  },
+  {
+   "id": 600,
+   "name": "Poison Sac"
+  },
+  {
+   "id": 179,
+   "name": "Poison Smoke Bomb"
+  },
+  {
+   "id": 210,
+   "name": "Poisoned Meat"
+  },
+  {
+   "id": 815,
+   "name": "Pom Motif"
+  },
+  {
+   "id": 24,
+   "name": "Portable BBQ Grill"
+  },
+  {
+   "id": 1,
+   "name": "Potion"
+  },
+  {
+   "id": 676,
+   "name": "Power Coating"
+  },
+  {
+   "id": 151,
+   "name": "Powercharm"
+  },
+  {
+   "id": 189,
+   "name": "Puddle Pod"
+  },
+  {
+   "id": 236,
+   "name": "Pure Fulgurite"
+  },
+  {
+   "id": 588,
+   "name": "Quality Bone"
+  },
+  {
+   "id": 241,
+   "name": "Queensbloom Pollen"
+  },
+  {
+   "id": 299,
+   "name": "Quematrice Certificate"
+  },
+  {
+   "id": 304,
+   "name": "Quematrice Certificate S"
+  },
+  {
+   "id": 89,
+   "name": "Quematrice Crest"
+  },
+  {
+   "id": 303,
+   "name": "Quematrice Crest+"
+  },
+  {
+   "id": 88,
+   "name": "Quematrice Hide"
+  },
+  {
+   "id": 301,
+   "name": "Quematrice Hide+"
+  },
+  {
+   "id": 298,
+   "name": "Quematrice Igniter"
+  },
+  {
+   "id": 302,
+   "name": "Quematrice Igniter+"
+  },
+  {
+   "id": 87,
+   "name": "Quematrice Scale"
+  },
+  {
+   "id": 300,
+   "name": "Quematrice Scale+"
+  },
+  {
+   "id": 90,
+   "name": "Quematrice Tail"
+  },
+  {
+   "id": 9,
+   "name": "Rare Steak"
+  },
+  {
+   "id": 410,
+   "name": "Rath Medulla"
+  },
+  {
+   "id": 556,
+   "name": "Rathalos Carapace"
+  },
+  {
+   "id": 560,
+   "name": "Rathalos Certificate S"
+  },
+  {
+   "id": 559,
+   "name": "Rathalos Ruby"
+  },
+  {
+   "id": 555,
+   "name": "Rathalos Scale+"
+  },
+  {
+   "id": 558,
+   "name": "Rathalos Tail"
+  },
+  {
+   "id": 557,
+   "name": "Rathalos Wing"
+  },
+  {
+   "id": 102,
+   "name": "Rathian Carapace"
+  },
+  {
+   "id": 535,
+   "name": "Rathian Certificate S"
+  },
+  {
+   "id": 777,
+   "name": "Rathian Coin"
+  },
+  {
+   "id": 105,
+   "name": "Rathian Ruby"
+  },
+  {
+   "id": 101,
+   "name": "Rathian Scale+"
+  },
+  {
+   "id": 104,
+   "name": "Rathian Spike+"
+  },
+  {
+   "id": 103,
+   "name": "Rathian Webbing"
+  },
+  {
+   "id": 7,
+   "name": "Ration"
+  },
+  {
+   "id": 12,
+   "name": "Raw Meat"
+  },
+  {
+   "id": 414,
+   "name": "Recover Ammo"
+  },
+  {
+   "id": 350,
+   "name": "Rey Dau Boltgem"
+  },
+  {
+   "id": 348,
+   "name": "Rey Dau Bolthorn"
+  },
+  {
+   "id": 347,
+   "name": "Rey Dau Carapace"
+  },
+  {
+   "id": 345,
+   "name": "Rey Dau Certificate"
+  },
+  {
+   "id": 351,
+   "name": "Rey Dau Certificate S"
+  },
+  {
+   "id": 756,
+   "name": "Rey Dau Certificate γ"
+  },
+  {
+   "id": 349,
+   "name": "Rey Dau Fulgurtalon"
+  },
+  {
+   "id": 143,
+   "name": "Rey Dau Plate"
+  },
+  {
+   "id": 138,
+   "name": "Rey Dau Scale"
+  },
+  {
+   "id": 346,
+   "name": "Rey Dau Scale+"
+  },
+  {
+   "id": 139,
+   "name": "Rey Dau Shell"
+  },
+  {
+   "id": 142,
+   "name": "Rey Dau Tail"
+  },
+  {
+   "id": 140,
+   "name": "Rey Dau Thunderhorn"
+  },
+  {
+   "id": 141,
+   "name": "Rey Dau Wingtalon"
+  },
+  {
+   "id": 625,
+   "name": "Rocksteady Mantle"
+  },
+  {
+   "id": 100,
+   "name": "Rolled-up Dung"
+  },
+  {
+   "id": 338,
+   "name": "Rompopolo Beak"
+  },
+  {
+   "id": 343,
+   "name": "Rompopolo Beak+"
+  },
+  {
+   "id": 339,
+   "name": "Rompopolo Certificate"
+  },
+  {
+   "id": 344,
+   "name": "Rompopolo Certificate S"
+  },
+  {
+   "id": 336,
+   "name": "Rompopolo Claw"
+  },
+  {
+   "id": 341,
+   "name": "Rompopolo Claw+"
+  },
+  {
+   "id": 335,
+   "name": "Rompopolo Hide"
+  },
+  {
+   "id": 340,
+   "name": "Rompopolo Hide+"
+  },
+  {
+   "id": 835,
+   "name": "Rompopolo Sketch"
+  },
+  {
+   "id": 826,
+   "name": "Round Acorn"
+  },
+  {
+   "id": 832,
+   "name": "Royal Felyne Emblem"
+  },
+  {
+   "id": 262,
+   "name": "Royal Sea Pot"
+  },
+  {
+   "id": 527,
+   "name": "Rubbery Hide"
+  },
+  {
+   "id": 528,
+   "name": "Rubbery Hide+"
+  },
+  {
+   "id": 159,
+   "name": "Rusted Weapon Shard"
+  },
+  {
+   "id": 233,
+   "name": "Sandpepper"
+  },
+  {
+   "id": 238,
+   "name": "Scarlet Amber Shard"
+  },
+  {
+   "id": 472,
+   "name": "Scarred Scale"
+  },
+  {
+   "id": 69,
+   "name": "Screamer Pod"
+  },
+  {
+   "id": 790,
+   "name": "Sealed Dragon Cloth"
+  },
+  {
+   "id": 825,
+   "name": "Secret Stash"
+  },
+  {
+   "id": 548,
+   "name": "Seregios Airblade"
+  },
+  {
+   "id": 551,
+   "name": "Seregios Breacher"
+  },
+  {
+   "id": 549,
+   "name": "Seregios Carver"
+  },
+  {
+   "id": 554,
+   "name": "Seregios Certificate S"
+  },
+  {
+   "id": 553,
+   "name": "Seregios Dissenter"
+  },
+  {
+   "id": 550,
+   "name": "Seregios Impaler"
+  },
+  {
+   "id": 552,
+   "name": "Seregios Scraper"
+  },
+  {
+   "id": 547,
+   "name": "Seregios Slavescale"
+  },
+  {
+   "id": 779,
+   "name": "SF6 Ticket"
+  },
+  {
+   "id": 95,
+   "name": "Sharp Fang"
+  },
+  {
+   "id": 213,
+   "name": "Sharp Kunafa Cheese"
+  },
+  {
+   "id": 813,
+   "name": "Shield Generator"
+  },
+  {
+   "id": 242,
+   "name": "Shiny Treasure"
+  },
+  {
+   "id": 19,
+   "name": "Shock Trap"
+  },
+  {
+   "id": 612,
+   "name": "Sild Cotton"
+  },
+  {
+   "id": 220,
+   "name": "Sild Garlic"
+  },
+  {
+   "id": 808,
+   "name": "Sild Meal Voucher"
+  },
+  {
+   "id": 651,
+   "name": "Silver Egg"
+  },
+  {
+   "id": 647,
+   "name": "Silver Melding Ticket"
+  },
+  {
+   "id": 649,
+   "name": "Silver Relic Ticket"
+  },
+  {
+   "id": 822,
+   "name": "Silver Talisman Ticket"
+  },
+  {
+   "id": 228,
+   "name": "Sinister Cloth"
+  },
+  {
+   "id": 795,
+   "name": "Skull Ticket"
+  },
+  {
+   "id": 130,
+   "name": "Slashberry"
+  },
+  {
+   "id": 49,
+   "name": "Sleep Ammo"
+  },
+  {
+   "id": 680,
+   "name": "Sleep Coating"
+  },
+  {
+   "id": 114,
+   "name": "Sleep Herb"
+  },
+  {
+   "id": 147,
+   "name": "Sleep Knife"
+  },
+  {
+   "id": 604,
+   "name": "Sleep Sac"
+  },
+  {
+   "id": 50,
+   "name": "Slicing Ammo"
+  },
+  {
+   "id": 635,
+   "name": "Small Barrel"
+  },
+  {
+   "id": 150,
+   "name": "Smoke Bomb"
+  },
+  {
+   "id": 74,
+   "name": "Smokenut"
+  },
+  {
+   "id": 117,
+   "name": "Snow Herb"
+  },
+  {
+   "id": 796,
+   "name": "Songbird Sketch"
+  },
+  {
+   "id": 819,
+   "name": "Soul of the Pictomancer"
+  },
+  {
+   "id": 243,
+   "name": "Sparkly Treasure"
+  },
+  {
+   "id": 614,
+   "name": "Speartuna Fin"
+  },
+  {
+   "id": 221,
+   "name": "Specialty Sild Garlic"
+  },
+  {
+   "id": 666,
+   "name": "Specklite"
+  },
+  {
+   "id": 803,
+   "name": "Spectral Barrel Bomb"
+  },
+  {
+   "id": 637,
+   "name": "Spider Web"
+  },
+  {
+   "id": 337,
+   "name": "Spotted Poison Hide"
+  },
+  {
+   "id": 342,
+   "name": "Spotted Poison Hide+"
+  },
+  {
+   "id": 39,
+   "name": "Spread Ammo"
+  },
+  {
+   "id": 650,
+   "name": "Steel Egg"
+  },
+  {
+   "id": 646,
+   "name": "Steel Melding Ticket"
+  },
+  {
+   "id": 648,
+   "name": "Steel Relic Ticket"
+  },
+  {
+   "id": 40,
+   "name": "Sticky Ammo"
+  },
+  {
+   "id": 16,
+   "name": "Stone"
+  },
+  {
+   "id": 656,
+   "name": "Stoutbone"
+  },
+  {
+   "id": 58,
+   "name": "Sturdy Bone"
+  },
+  {
+   "id": 809,
+   "name": "Suja Meal Voucher"
+  },
+  {
+   "id": 611,
+   "name": "Suja Textiles"
+  },
+  {
+   "id": 271,
+   "name": "Sushifish Scale"
+  },
+  {
+   "id": 94,
+   "name": "Talioth Scale"
+  },
+  {
+   "id": 490,
+   "name": "Talioth Scale+"
+  },
+  {
+   "id": 674,
+   "name": "Tentacle Jig"
+  },
+  {
+   "id": 814,
+   "name": "The Blackest Night"
+  },
+  {
+   "id": 51,
+   "name": "Thorngrass Pod"
+  },
+  {
+   "id": 181,
+   "name": "Throwing Knife"
+  },
+  {
+   "id": 44,
+   "name": "Thunder Ammo"
+  },
+  {
+   "id": 284,
+   "name": "Thunder Pod"
+  },
+  {
+   "id": 597,
+   "name": "Thunder Sac"
+  },
+  {
+   "id": 31,
+   "name": "Thunderbug Capacitor"
+  },
+  {
+   "id": 237,
+   "name": "Thundering Fulgurite"
+  },
+  {
+   "id": 259,
+   "name": "Time-honed Wylk Gem"
+  },
+  {
+   "id": 821,
+   "name": "Timeworn Charm"
+  },
+  {
+   "id": 207,
+   "name": "Tinged Meat"
+  },
+  {
+   "id": 112,
+   "name": "Toadstool"
+  },
+  {
+   "id": 794,
+   "name": "Toe Bean Ticket"
+  },
+  {
+   "id": 188,
+   "name": "Torch Pod"
+  },
+  {
+   "id": 595,
+   "name": "Torrent Sac"
+  },
+  {
+   "id": 587,
+   "name": "Tough Guardian Bone"
+  },
+  {
+   "id": 601,
+   "name": "Toxin Sac"
+  },
+  {
+   "id": 415,
+   "name": "Tranq Ammo"
+  },
+  {
+   "id": 144,
+   "name": "Tranq Blade"
+  },
+  {
+   "id": 180,
+   "name": "Tranq Bomb"
+  },
+  {
+   "id": 72,
+   "name": "Trap Tool"
+  },
+  {
+   "id": 227,
+   "name": "Truffle Du Conga"
+  },
+  {
+   "id": 672,
+   "name": "Tuff Joint Bait"
+  },
+  {
+   "id": 217,
+   "name": "Turbid Shrimp"
+  },
+  {
+   "id": 327,
+   "name": "Uth Duna Certificate"
+  },
+  {
+   "id": 334,
+   "name": "Uth Duna Certificate S"
+  },
+  {
+   "id": 757,
+   "name": "Uth Duna Certificate γ"
+  },
+  {
+   "id": 323,
+   "name": "Uth Duna Cilia"
+  },
+  {
+   "id": 330,
+   "name": "Uth Duna Cilia+"
+  },
+  {
+   "id": 325,
+   "name": "Uth Duna Claw"
+  },
+  {
+   "id": 332,
+   "name": "Uth Duna Claw+"
+  },
+  {
+   "id": 322,
+   "name": "Uth Duna Hide"
+  },
+  {
+   "id": 329,
+   "name": "Uth Duna Hide+"
+  },
+  {
+   "id": 326,
+   "name": "Uth Duna Plate"
+  },
+  {
+   "id": 321,
+   "name": "Uth Duna Scale"
+  },
+  {
+   "id": 328,
+   "name": "Uth Duna Scale+"
+  },
+  {
+   "id": 324,
+   "name": "Uth Duna Tentacle"
+  },
+  {
+   "id": 331,
+   "name": "Uth Duna Tentacle+"
+  },
+  {
+   "id": 333,
+   "name": "Uth Duna Watergem"
+  },
+  {
+   "id": 470,
+   "name": "Valuable Material"
+  },
+  {
+   "id": 573,
+   "name": "Vespoid Carapace"
+  },
+  {
+   "id": 575,
+   "name": "Vespoid Innerwing"
+  },
+  {
+   "id": 572,
+   "name": "Vespoid Shell"
+  },
+  {
+   "id": 574,
+   "name": "Vespoid Wing"
+  },
+  {
+   "id": 506,
+   "name": "Vibrant Pelt"
+  },
+  {
+   "id": 511,
+   "name": "Vibrant Pelt+"
+  },
+  {
+   "id": 752,
+   "name": "Wartorn Dragongem"
+  },
+  {
+   "id": 43,
+   "name": "Water Ammo"
+  },
+  {
+   "id": 8,
+   "name": "Well-done Steak"
+  },
+  {
+   "id": 797,
+   "name": "Well-done Steak Recipe Book"
+  },
+  {
+   "id": 270,
+   "name": "Whetfish Fin"
+  },
+  {
+   "id": 683,
+   "name": "Whetfish Fin+"
+  },
+  {
+   "id": 20,
+   "name": "Whetstone"
+  },
+  {
+   "id": 461,
+   "name": "White Arkveld Pelt"
+  },
+  {
+   "id": 222,
+   "name": "Wild Herb"
+  },
+  {
+   "id": 631,
+   "name": "Wild Jerky"
+  },
+  {
+   "id": 226,
+   "name": "Wild Seed Oil"
+  },
+  {
+   "id": 230,
+   "name": "Windward Aloe"
+  },
+  {
+   "id": 816,
+   "name": "Wing Motif"
+  },
+  {
+   "id": 96,
+   "name": "Wingdrake Hide"
+  },
+  {
+   "id": 491,
+   "name": "Wingdrake Hide+"
+  },
+  {
+   "id": 767,
+   "name": "Worn Pickaxe"
+  },
+  {
+   "id": 804,
+   "name": "Wudwud Barrel Bomb"
+  },
+  {
+   "id": 799,
+   "name": "Wudwud Likey-like"
+  },
+  {
+   "id": 632,
+   "name": "Wudwud Treasure"
+  },
+  {
+   "id": 258,
+   "name": "Wylk Gem"
+  },
+  {
+   "id": 257,
+   "name": "Wylk Pebble"
+  },
+  {
+   "id": 253,
+   "name": "Wyveria Lantern"
+  },
+  {
+   "id": 700,
+   "name": "Wyverian Bloodstone"
+  },
+  {
+   "id": 701,
+   "name": "Wyverian Bloodstone (L)"
+  },
+  {
+   "id": 699,
+   "name": "Wyverian Bloodstone (S)"
+  },
+  {
+   "id": 702,
+   "name": "Wyverian Bloodstone Chunk"
+  },
+  {
+   "id": 698,
+   "name": "Wyverian Bloodstone Shard"
+  },
+  {
+   "id": 153,
+   "name": "Wyvern Ammo"
+  },
+  {
+   "id": 629,
+   "name": "Wyvern Egg"
+  },
+  {
+   "id": 91,
+   "name": "Wyvern Gem"
+  },
+  {
+   "id": 250,
+   "name": "Wyvernscale Vase"
+  },
+  {
+   "id": 269,
+   "name": "Wyvernsprout"
+  },
+  {
+   "id": 444,
+   "name": "Xu Wu Cerebrospinal Fluid"
+  },
+  {
+   "id": 445,
+   "name": "Xu Wu Certificate"
+  },
+  {
+   "id": 297,
+   "name": "Xu Wu Certificate S"
+  },
+  {
+   "id": 442,
+   "name": "Xu Wu Claw"
+  },
+  {
+   "id": 449,
+   "name": "Xu Wu Claw+"
+  },
+  {
+   "id": 443,
+   "name": "Xu Wu Fang"
+  },
+  {
+   "id": 450,
+   "name": "Xu Wu Fang+"
+  },
+  {
+   "id": 439,
+   "name": "Xu Wu Hide"
+  },
+  {
+   "id": 446,
+   "name": "Xu Wu Hide+"
+  },
+  {
+   "id": 441,
+   "name": "Xu Wu Tentacle"
+  },
+  {
+   "id": 448,
+   "name": "Xu Wu Tentacle+"
+  },
+  {
+   "id": 451,
+   "name": "Xu Wu Umbragem"
+  },
+  {
+   "id": 526,
+   "name": "Yian Kut-Ku Certificate S"
+  },
+  {
+   "id": 709,
+   "name": "Zoh Shia Certificate S"
+  },
+  {
+   "id": 713,
+   "name": "Zoh Shia Crystalhorn"
+  },
+  {
+   "id": 710,
+   "name": "Zoh Shia Crystalscale"
+  },
+  {
+   "id": 714,
+   "name": "Zoh Shia Crystaltail"
+  },
+  {
+   "id": 711,
+   "name": "Zoh Shia Layershell"
+  },
+  {
+   "id": 712,
+   "name": "Zoh Shia Stakeclaw"
+  }
+ ],
+ "playerScale": [
+  1.0,
+  1.63,
+  2.0,
+  2.34
+ ]
+}

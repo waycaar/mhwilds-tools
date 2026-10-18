@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.5.1 (2026-10-18)
+- The source code is now in this repository under the GPL-3.0, with build steps in src/BUILD.md
+- Quests are built from the official quests in your Permanent Event Quest mod folder instead of copies shipped with the app. If a map's usual quest is missing, another official quest on that map is used
+- The app no longer contains any files from other mods
+
 ## 1.5 (2026-10-18)
 - The app file is now MHWildsTools.exe. Updating from an older version renames it for you and removes the old MHWildsQuestMaker.exe, so update any shortcut you made. Your settings and builds stay where they are
 - Credits thank the people the app is built on by name: LartTyler, praydog and the REFramework contributors, kassent and Rasmus Andersson
